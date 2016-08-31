@@ -3,8 +3,8 @@
     "title": "Core Team",
     "members": [
       {
-        "name": "Oleh Zasadnyy",
-        "photoUrl": "/images/people/oleh_zasadnyy.jpg",
+        "name": "Filip Procházka",
+        "photoUrl": "/images/people/filip_prochazka.jpg",
         "socials": [
           {
             "icon": "gplus",
@@ -12,26 +12,16 @@
             "name": "Google+"
           },
           {
-            "icon": "facebook",
-            "link": "https://www.facebook.com/oleh.zasadnyy",
-            "name": "Facebook"
-          },
-          {
             "icon": "twitter",
             "link": "https://twitter.com/ozasadnyy",
             "name": "Twitter"
-          },
-          {
-            "icon": "website",
-            "link": "http://o.zasadnyy.com/",
-            "name": "Blog"
           }
         ],
-        "title": "Website and sponsors"
+        "title": "Web & sponzoři"
       },
       {
-        "name": "Sofiya Huts",
-        "photoUrl": "/images/people/sofiya_huts.jpg",
+        "name": "Hubert Šváb",
+        "photoUrl": "/images/people/hubert_svab.jpg",
         "socials": [
           {
             "icon": "gplus",
@@ -44,11 +34,11 @@
             "name": "Facebook"
           }
         ],
-        "title": "Social and media"
+        "title": "Partneři & řečníci"
       },
       {
-        "name": "Vitaliy Zasadnyy",
-        "photoUrl": "/images/people/vitaliy_zasadnyy.jpg",
+        "name": "Honza Steinbach",
+        "photoUrl": "/images/people/honza_steinbach.jpg",
         "socials": [
           {
             "icon": "linkedin",
@@ -59,101 +49,18 @@
             "icon": "twitter",
             "link": "https://twitter.com/zasadnyy",
             "name": "Twitter"
-          },
-          {
-            "icon": "website",
-            "link": "http://v.zasadnyy.com/",
-            "name": "Blog"
           }
         ],
-        "title": "Speakers"
-      },
+        "title": "Ubytování & občerstvení"
+      }
+    ]
+  },
+  {
+    "title": "Garanti sekcí",
+    "members": [
       {
-        "name": "Marta Maxymiak",
-        "photoUrl": "/images/people/marta_maxymiak.jpg",
-        "socials": [
-          {
-            "icon": "gplus",
-            "link": "https://plus.google.com/104036874811391520583",
-            "name": "Google+"
-          },
-          {
-            "icon": "facebook",
-            "link": "https://www.facebook.com/marta.maxymiak",
-            "name": "Facebook"
-          }
-        ],
-        "title": "Party and happiness"
-      },
-      {
-        "name": "Ostap Andrusiv",
-        "photoUrl": "/images/people/ostap_andrusiv.jpg",
-        "socials": [
-          {
-            "icon": "gplus",
-            "link": "https://google.com/+OstapAndrusiv",
-            "name": "Google+"
-          },
-          {
-            "icon": "facebook",
-            "link": "https://www.facebook.com/ostap.andrusiv",
-            "name": "Facebook"
-          },
-          {
-            "icon": "twitter",
-            "link": "https://twitter.com/p1f",
-            "name": "Twitter"
-          },
-          {
-            "icon": "website",
-            "link": "http://andrusiv.com/",
-            "name": "Blog"
-          }
-        ],
-        "title": "Sponsors"
-      },
-      {
-        "name": "Vasylyna Mytsak",
-        "photoUrl": "/images/people/vasylyna_mytsak.jpg",
-        "socials": [
-          {
-            "icon": "gplus",
-            "link": "https://plus.google.com/+ВасилинаМицак",
-            "name": "Google+"
-          },
-          {
-            "icon": "facebook",
-            "link": "https://www.facebook.com/vasylyna.mytsak",
-            "name": "Facebook"
-          }
-        ],
-        "title": "Party and happiness"
-      },
-      {
-        "name": "Volodya Karpliuk",
-        "photoUrl": "/images/people/volodya_karpliuk.jpg",
-        "socials": [
-          {
-            "icon": "gplus",
-            "link": "https://plus.google.com/+VolodyaKarpliuk23",
-            "name": "Google+"
-          },
-          {
-            "icon": "facebook",
-            "link": "https://www.facebook.com/volodya.karpluk",
-            "name": "Facebook"
-          },
-          {
-            "icon": "twitter",
-            "link": "https://twitter.com/keyv23",
-            "name": "Twitter"
-          }
-        ],
-        "title": "Speakers"
-      },
-      {
-        "name": "Diana Pinchuk",
-        "photoUrl": "/images/people/diana_pinchuk.jpg",
+        "name": "Tomáš Jukin",
+        "photoUrl": "/images/people/tomas_jukin.jpg",
         "socials": [
           {
             "icon": "gplus",
@@ -166,51 +73,92 @@
             "name": "Facebook"
           }
         ],
-        "title": "Social and media"
-      }
-    ]
-  },
-  {
-    "title": "Program Committee",
-    "members": [
-      {
-        "name": "Ihor Dvoretskyi",
-        "photoUrl": "/images/people/ihor_dvoretskyi.jpg",
-        "socials": [
-          {
-            "icon": "facebook",
-            "link": "https://www.facebook.com/idvoretskyi",
-            "name": "Facebook"
-          },
-          {
-            "icon": "twitter",
-            "link": "https://twitter.com/idvoretskyi",
-            "name": "Twitter"
-          }
-        ],
-        "title": "Cloud stream"
+        "title": "IoT & Open Hardware"
       },
       {
-        "name": "Dmytro Danylyk",
-        "photoUrl": "/images/people/dmytro_danylyk.jpg",
+        "name": "Vít Listík",
+        "photoUrl": "/images/people/vit_listik.jpg",
         "socials": [
           {
             "icon": "gplus",
-            "link": "https://plus.google.com/+DmytroDanylyk",
+            "link": "https://plus.google.com/104036874811391520583",
             "name": "Google+"
           },
           {
-            "icon": "twitter",
-            "link": "https://twitter.com/dmytrodanylyk",
-            "name": "Twitter"
-          },
-          {
-            "icon": "website",
-            "link": "http://www.dmytrodanylyk.com/#/about",
-            "name": "Website"
+            "icon": "facebook",
+            "link": "https://www.facebook.com/marta.maxymiak",
+            "name": "Facebook"
           }
         ],
-        "title": "Android Stream"
+        "title": "Machine Learning"
+      },
+      {
+        "name": "?? ??",
+        "photoUrl": "/images/people/person_a.jpg",
+        "socials": [
+          {
+            "icon": "gplus",
+            "link": "https://plus.google.com/104036874811391520583",
+            "name": "Google+"
+          },
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com/marta.maxymiak",
+            "name": "Facebook"
+          }
+        ],
+        "title": "Drony"
+      },
+      {
+        "name": "?? ??",
+        "photoUrl": "/images/people/person_a.jpg",
+        "socials": [
+          {
+            "icon": "gplus",
+            "link": "https://plus.google.com/104036874811391520583",
+            "name": "Google+"
+          },
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com/marta.maxymiak",
+            "name": "Facebook"
+          }
+        ],
+        "title": "Bussiness & Inovace"
+      },
+      {
+        "name": "?? ??",
+        "photoUrl": "/images/people/person_a.jpg",
+        "socials": [
+          {
+            "icon": "gplus",
+            "link": "https://plus.google.com/104036874811391520583",
+            "name": "Google+"
+          },
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com/marta.maxymiak",
+            "name": "Facebook"
+          }
+        ],
+        "title": "Mobilní vývoj"
+      },
+      {
+        "name": "?? ??",
+        "photoUrl": "/images/people/person_a.jpg",
+        "socials": [
+          {
+            "icon": "gplus",
+            "link": "https://plus.google.com/104036874811391520583",
+            "name": "Google+"
+          },
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com/marta.maxymiak",
+            "name": "Facebook"
+          }
+        ],
+        "title": "Backend"
       }
     ]
   }
