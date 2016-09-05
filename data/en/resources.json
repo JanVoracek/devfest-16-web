@@ -34,7 +34,7 @@
   "early-ticket": "Early Bird",
   "early-ticket-starts": "May 1",
   "early-ticket-ends": "July 1",
-  "early-ticket-info": "Or first 100 tickets",
+  "early-ticket-info": "",
   "lazy-ticket": "Lazy Bird",
   "lazy-ticket-starts": "July 1",
   "lazy-ticket-ends": "Sep 8",
@@ -75,5 +75,6 @@
   "continue-reading": "Continue reading",
   "view-presentation": "View presentation",
   "view-video": "View video",
-  "share-with": "Share with"
+  "share-with": "Share with",
+  "workshops": "Workshops"
 }

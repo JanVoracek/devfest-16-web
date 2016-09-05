@@ -33,8 +33,8 @@
   "student-ticket-info": "Vyžaduje ověření",
   "early-ticket": "Early Bird",
   "early-ticket-starts": "1.9.",
-  "early-ticket-ends": "31.9.",
-  "early-ticket-info": "Nebo prvních 200 návštěvníků",
+  "early-ticket-ends": "30.9.",
+  "early-ticket-info": "",
   "lazy-ticket": "Lazy Bird",
   "lazy-ticket-starts": "1.10.",
   "lazy-ticket-ends": "31.10.",
@@ -43,7 +43,7 @@
   "description": "",
   "attendees": "Účastníků",
   "days": "Dny",
-  "sessions": "Sessions",
+  "sessions": "Přednášek",
   "tracks": "Sekcí",
   "social-title": "Sociální sítě",
   "social-motto": "Přidejte si nás na sociálních sítích",
@@ -75,5 +75,6 @@
   "continue-reading": "Pokračovat ve čtení",
   "view-presentation": "Zobrazit prezentaci",
   "view-video": "Přehrát video",
-  "share-with": "Sdílet s"
+  "share-with": "Sdílet s",
+  "workshops": "Workshopů"
 }

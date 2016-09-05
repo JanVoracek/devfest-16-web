@@ -44,6 +44,7 @@
       @media (min-width: 601px) {
         .posts-wrapper {
           @apply(--layout-horizontal);
+          @apply(--layout-center-justified);
         }
 
         .post:not(:first-of-type) {
@@ -66,14 +67,16 @@
           </marked-element>
           <a href$="[[_posts.0.url]]">[[localize('continue-reading')]]</a>
         </div>
-        <span class="post-divider"></span>
-        <div class="post">
-          <div class="title">[[_posts.1.title]]</div>
-          <marked-element markdown="[[_posts.1.brief]]">
-            <div class="markdown-html"></div>
-          </marked-element>
-          <a href$="[[_posts.1.url]]">[[localize('continue-reading')]]</a>
-        </div>
+        <template is="dom-if" if="[[_hasMoreThanOnePost(_posts)]]">
+          <span class="post-divider"></span>
+          <div class="post">
+            <div class="title">[[_posts.1.title]]</div>
+            <marked-element markdown="[[_posts.1.brief]]">
+              <div class="markdown-html"></div>
+            </marked-element>
+            <a href$="[[_posts.1.url]]">[[localize('continue-reading')]]</a>
+          </div>
+        </template>
       </div>
     </div>
 
@@ -103,10 +106,18 @@
           }
         },
 
+        _hasMoreThanOnePost: function (posts) {
+          if (this._posts.length > 1) {
+            return true
+          } else {
+            return false
+          }
+        },
+
         _postsChanged: function () {
           var temp = this.posts.slice(0, 2);
           for (var i = 0, len = temp.length; i < len; i++) {
-            temp[i].url = '/blog/posts/' + temp[i].id + '/';
+            temp[ i ].url = '/blog/posts/' + temp[ i ].id + '/';
           }
           this._posts = temp;
         }

@@ -121,7 +121,7 @@
     "elements": [
       {
         "name": "student-ticket",
-        "price": 250,
+        "price": 299,
         "currency": "Kč",
         "starts": "student-ticket-starts",
         "ends": "student-ticket-ends",
@@ -130,7 +130,7 @@
       },
       {
         "name": "early-ticket",
-        "price": 390,
+        "price": 399,
         "currency": "Kč",
         "starts": "early-ticket-starts",
         "ends": "early-ticket-ends",
@@ -139,7 +139,7 @@
       },
       {
         "name": "lazy-ticket",
-        "price": 490,
+        "price": 599,
         "currency": "Kč",
         "starts": "lazy-ticket-starts",
         "ends": "lazy-ticket-ends",
@@ -151,20 +151,20 @@
   "teamPageText": "team-page-text",
   "statistics": [
     {
-      "counter": 600,
-      "caption": "attendees"
-    },
-    {
       "counter": 2,
       "caption": "days"
+    },
+    {
+      "counter": 6,
+      "caption": "workshops"
     },
     {
       "counter": 40,
       "caption": "sessions"
     },
     {
-      "counter": 5,
-      "caption": "tracks"
+      "counter": 600,
+      "caption": "attendees"
     }
   ],
   "hashtag": "devfestcz",
