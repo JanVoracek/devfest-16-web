@@ -7,14 +7,14 @@
         "photoUrl": "/images/people/filip_prochazka.jpg",
         "socials": [
           {
-            "icon": "gplus",
-            "link": "https://plus.google.com/+OlehZasadnyy",
-            "name": "Google+"
+            "icon": "twitter",
+            "link": "https://twitter.com/filipproch",
+            "name": "Twitter"
           },
           {
-            "icon": "twitter",
-            "link": "https://twitter.com/ozasadnyy",
-            "name": "Twitter"
+            "icon": "gplus",
+            "link": "https://plus.google.com/+FilipJacktechProcházka",
+            "name": "Google+"
           }
         ],
         "title": "Partneři & web"
@@ -24,14 +24,14 @@
         "photoUrl": "/images/people/hubert_svab.jpg",
         "socials": [
           {
-            "icon": "gplus",
-            "link": "https://plus.google.com/+SofiaHuts",
-            "name": "Google+"
+            "icon": "facebook",
+            "link": "https://www.facebook.com/bert.svab.3",
+            "name": "Facebook"
           },
           {
-            "icon": "facebook",
-            "link": "https://www.facebook.com/sophie.huts.7",
-            "name": "Facebook"
+            "icon": "twitter",
+            "link": "https://twitter.com/BertSvab",
+            "name": "Twitter"
           }
         ],
         "title": "Partneři & řečníci"
@@ -42,13 +42,13 @@
         "socials": [
           {
             "icon": "linkedin",
-            "link": "https://www.linkedin.com/in/zasadnyy",
+            "link": "https://www.linkedin.com/in/honzasteinbach",
             "name": "Linkedin"
           },
           {
-            "icon": "twitter",
-            "link": "https://twitter.com/zasadnyy",
-            "name": "Twitter"
+            "icon": "facebook",
+            "link": "https://www.facebook.com/blitziard",
+            "name": "Facebook"
           }
         ],
         "title": "Ubytování & občerstvení"
