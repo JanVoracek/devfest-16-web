@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="140"
+   height="60"
+   viewBox="0 0 140 60"
+   id="svg4651"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="gug-cz.svg">
+  <defs
+     id="defs4653">
+    <linearGradient
+       id="linearGradient6225"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#039be5;stop-opacity:1;"
+         offset="0"
+         id="stop6227" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6195"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#e53935;stop-opacity:1;"
+         offset="0"
+         id="stop6197" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6207"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#ffc400;stop-opacity:1;"
+         offset="0"
+         id="stop6209" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="-85.525833"
+     inkscape:cy="84.19643"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1048"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4656">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-101.9544,-486.55863)">
+    <text
+       sodipodi:linespacing="125%"
+       id="text4136-0-1-6"
+       y="531.64136"
+       x="104.73768"
+       style="font-style:normal;font-weight:normal;font-size:22.95038223px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#c62828;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:43.03197098px;font-family:Poppins;-inkscape-font-specification:'Poppins Medium';fill:#c62828;fill-opacity:1"
+         y="531.64136"
+         x="104.73768"
+         id="tspan4138-0-9-1"
+         sodipodi:role="line"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Poppins;-inkscape-font-specification:'Poppins Semi-Bold';fill:url(#linearGradient6225);fill-opacity:1"
+           id="tspan4522-2">G</tspan><tspan
+           id="tspan4260-4-5-47"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Poppins;-inkscape-font-specification:'Poppins Semi-Bold';fill:url(#linearGradient6195);fill-opacity:1">U<tspan
+   style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Poppins;-inkscape-font-specification:'Poppins Semi-Bold';fill:url(#linearGradient6207)"
+   id="tspan7639-1">G</tspan></tspan><tspan
+           id="tspan4144-4-7-3"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.68797684px;font-family:Poppins;-inkscape-font-specification:Poppins;fill:#607d8b;fill-opacity:1">.cz</tspan></tspan></text>
+  </g>
+</svg>
