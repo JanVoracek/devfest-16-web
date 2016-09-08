@@ -47,18 +47,6 @@
     }
   },
   "navigation": [
-    {
-      "route": "home",
-      "permalink": "/"
-    },
-    {
-      "route": "blog",
-      "permalink": "/blog/"
-    },
-    {
-      "route": "team",
-      "permalink": "/team/"
-    }
   ],
   "url": "https://www.devfest.cz/",
   "mailchimp": {
@@ -69,12 +57,12 @@
   "disqusShortName": "hoverboard-gdg-x",
   "languages": [
     {
-      "name": "Česky",
-      "key": "cs"
-    },
-    {
       "name": "English",
       "key": "en"
+    },
+    {
+      "name": "Česky",
+      "key": "cs"
     }
   ],
   "footerBlocks": [
@@ -117,7 +105,7 @@
     ]
   },
   "tickets": {
-    "url": "https://dfplzen.eventbrite.com",
+    "url": "http://dfplzen.eventbrite.com/?aff=webdirectlink",
     "elements": [
       {
         "name": "student-ticket",
@@ -214,9 +202,9 @@
       "/images/backgrounds/location_3.jpg"
     ]
   },
-  "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv",
+  "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLcyrRW-49oITCeOmO9au4fVudNLlL7PkD",
   "callToAction": {
     "videoTitle": "action-title",
-    "videoId": "DfMnJAzOFng"
+    "videoId": "cKN26btTxAg"
   }
 }

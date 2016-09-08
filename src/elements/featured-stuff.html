@@ -1,0 +1,136 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<link rel="import" href="../../bower_components/iron-image/iron-image.html">
+<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
+
+<link rel="import" href="../styles/shared-styles.html">
+<link rel="import" href="../behaviors/utils-behavior.html">
+<link rel="import" href="../behaviors/localize-behavior.html">
+
+
+<dom-module id="featured-stuff">
+
+  <template>
+
+    <style include="shared-styles">
+      :host {
+        display: block;
+        background: #fff;
+      }
+
+      .container {
+        padding-bottom: 30px;
+        text-align: center;
+      }
+
+      .stuff-wrapper {
+        @apply(--layout-horizontal);
+        @apply(--layout-wrap);
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+
+      .stuff {
+        @apply(--layout-vertical);
+        @apply(--layout-center);
+        color: var(--primary-text-color);
+        width: 50%;
+      }
+
+      .photo {
+        @apply(--img-circle);
+        height: 70px;
+        width: 70px;
+      }
+
+      .name {
+        margin-top: 12px;
+        padding: 0 16px;
+        line-height: .9;
+      }
+
+      @media (max-width: 600px) {
+        .stuff:nth-child(1),
+        .stuff:nth-child(2) {
+          margin-bottom: 40px;
+        }
+      }
+
+      @media (min-width: 601px) {
+        .photo {
+          height: 120px;
+          width: 120px;
+        }
+
+        .stuff {
+          @apply(--layout-flex);
+        }
+      }
+    </style>
+
+    <div class="container">
+      <div class="stuff-wrapper">
+        <template is="dom-repeat" items="[[stuff]]" as="stuff">
+          <div class="stuff">
+            <iron-image
+              class="photo"
+              src="[[stuff.photoUrl]]"
+              sizing="cover"></iron-image>
+            </iron-image>
+            <h4 class="name">[[stuff.name]]</h4>
+          </div>
+        </template>
+      </div>
+    </div>
+
+  </template>
+
+  <script>
+    (function () {
+      'use strict';
+
+      Polymer({
+
+        is: 'featured-stuff',
+
+        behaviors: [
+          HOVERBOARD.LocalizeBehavior,
+          HOVERBOARD.UtilsBehavior
+        ],
+
+        properties: {
+          stuff: {
+            type: Array,
+            value: function () {
+              return [
+                {
+                  photoUrl: '/images/stuff/gcp_logo.png',
+                  name: 'Backend'
+                },
+                {
+                  photoUrl: '/images/stuff/android_logo.png',
+                  name: 'Mobile'
+                },
+                {
+                  photoUrl: '/images/stuff/iot_openhw.png',
+                  name: 'IoT & OpenHW'
+                },
+                {
+                  photoUrl: '/images/stuff/machine_learning.png',
+                  name: 'Machine Learning'
+                },
+                {
+                  photoUrl: '/images/stuff/innovation.png',
+                  name: 'Business & Innovations'
+                }
+              ]
+            }
+          }
+        }
+
+      });
+
+    }());
+  </script>
+
+</dom-module>
