@@ -9,6 +9,7 @@
 <link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
 <link rel="import" href="../../bower_components/paper-button/paper-button.html">
 
+<link rel="import" href="../icons/flag-icons.html">
 <link rel="import" href="../styles/shared-styles.html">
 <link rel="import" href="../behaviors/utils-behavior.html">
 <link rel="import" href="../behaviors/localize-behavior.html">
@@ -73,6 +74,10 @@
         background: var(--header-color);
         font-size: 13px;
       }
+
+      .lang-tabs {
+        --paper-tabs-selection-bar-color: transparent;
+      }
     </style>
 
     <app-toolbar id="mainToolbar">
@@ -85,8 +90,7 @@
             class="logo"
             src="/images/logo-white.svg"
             sizing="contain"
-            alt="{{localize('title')}}"
-          ></iron-image>
+            alt="{{localize('title')}}"></iron-image>
         </a>
       </div>
       <div class="navItem" layout horizontal self-end>
@@ -98,6 +102,21 @@
               </paper-tab>
             </template>
           </paper-tabs>
+          <paper-tabs class="lang-tabs" selected="{{app.lang}}" attr-for-selected="name" noink>
+            <template is="dom-if" if="[[_langIsNot(app.lang, 'cs')]]">
+              <paper-tab name="cs">
+                <a href="#" class="nav-link">CZ</a>
+              </paper-tab>
+            </template>
+            <template is="dom-if" if="[[_langIsNot(app.lang, 'en')]]">
+              <paper-tab name="en">
+                <a href="#" class="nav-link">EN</a>
+              </paper-tab>
+            </template>
+          </paper-tabs>
+          <!--<div class="action-button-wrapper" layout horizontal center-center>
+            <paper-icon-button class="lang-button" icon="flags:cz"></paper-icon-button>
+          </div>-->
           <div class="action-button-wrapper" layout horizontal center-center>
             <a href$="[[app.data.tickets.url]]" target="_blank" rel="noopener noreferrer" on-tap="_trackBuyClick">
               <paper-button class="action-button">[[localize('buy-ticket')]]</paper-button>
@@ -129,7 +148,8 @@
         },
 
         observers: [
-          '_stylesChanged(app.headerSettings)'
+          '_stylesChanged(app.headerSettings)',
+          'languageChanged(app.lang)'
         ],
 
         togglePanel: function () {
@@ -138,7 +158,7 @@
 
         _stylesChanged: function (headerSettings) {
           if (headerSettings) {
-            this.customStyle['--header-color'] = headerSettings.fontColor;
+            this.customStyle[ '--header-color' ] = headerSettings.fontColor;
             this.hideLogo = headerSettings.hideLogo;
             this.updateStyles();
           }
@@ -146,6 +166,14 @@
 
         _trackBuyClick: function () {
           HOVERBOARD.Analytics.trackEvent('ticket', 'buy_click', 'toolbar');
+        },
+
+        languageChanged: function (lang) {
+          HOVERBOARD.Analytics.trackEvent('language', 'select', lang);
+        },
+
+        _langIsNot: function (lang, value) {
+          return lang !== value
         }
 
       });

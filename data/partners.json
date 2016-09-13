@@ -13,5 +13,15 @@
         "logoUrl": "../images/logos/gug-cz.svg"
       }
     ]
+  },
+  {
+    "title": "warm-up-party-organiser",
+    "logos": [
+      {
+        "name": "AIMTEC",
+        "url": "http://www.aimtec.cz",
+        "logoUrl": "../images/logos/aimtec.gif"
+      }
+    ]
   }
 ]

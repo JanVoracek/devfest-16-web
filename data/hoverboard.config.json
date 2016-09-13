@@ -47,13 +47,21 @@
     }
   },
   "navigation": [
+    {
+      "route": "home",
+      "permalink": "/"
+    },
+    {
+      "route": "blog",
+      "permalink": "/blog/"
+    }
   ],
   "url": "https://www.devfest.cz/",
   "mailchimp": {
-    "url": "http://gug.us9.list-manage.com/subscribe?u=dbd4716ed6dbba520844478a2&id=79b5e07c3b",
+    "url": "https://gug.us9.list-manage.com/subscribe?u=dbd4716ed6dbba520844478a2&id=79b5e07c3b",
     "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
   },
-  "partnershipProposition": "http://bit.ly/dfplzen-sponsor",
+  "partnershipProposition": "https://bit.ly/dfplzen-sponsor",
   "disqusShortName": "hoverboard-gdg-x",
   "languages": [
     {
@@ -85,12 +93,12 @@
       "links": [
         {
           "text": "partnership-proposition",
-          "url": "http://bit.ly/dfplzen-sponsor",
+          "url": "https://bit.ly/dfplzen-sponsor",
           "newTab": true
         },
         {
           "text": "media-kit",
-          "url": "http://bit.ly/dfplzen-media",
+          "url": "https://bit.ly/dfplzen-media",
           "newTab": true
         }
       ]
@@ -105,7 +113,7 @@
     ]
   },
   "tickets": {
-    "url": "http://dfplzen.eventbrite.com/?aff=webdirectlink",
+    "url": "https://dfplzen.eventbrite.com/?aff=webdirectlink",
     "elements": [
       {
         "name": "student-ticket",
