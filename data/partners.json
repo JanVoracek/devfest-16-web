@@ -15,6 +15,16 @@
     ]
   },
   {
+    "title": "general-media-partner",
+    "logos": [
+      {
+        "name": "Dotekománie.cz",
+        "url": "https://dotekomanie.cz/",
+        "logoUrl": "../images/logos/dotekomanie.png"
+      }
+    ]
+  },
+  {
     "title": "warm-up-party-organiser",
     "logos": [
       {

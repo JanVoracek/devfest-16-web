@@ -17,12 +17,15 @@
 <link rel="import" href="../elements/social-feed.html">
 <link rel="import" href="../elements/logos-block.html">
 <link rel="import" href="../elements/map-block.html">
+<link rel="import" href="../elements/cfp-block.html">
 
 <dom-module id="home-page">
 
   <template>
 
     <statistics-block app="{{app}}" cascaded></statistics-block>
+    <featured-people app="{{app}}" people="{{people}}" cascaded></featured-people>
+    <cfp-block app="{{app}}" cascaded></cfp-block>
     <featured-stuff app="{{app}}" cascaded></featured-stuff>
     <featured-videos app="{{app}}" cascaded></featured-videos>
     <call-to-action app="{{app}}" cascaded></call-to-action>

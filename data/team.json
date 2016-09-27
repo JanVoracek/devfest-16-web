@@ -17,7 +17,7 @@
             "name": "Google+"
           }
         ],
-        "title": "Partners and website"
+        "title": "Sponsors and website"
       },
       {
         "name": "Hubert Šváb",
@@ -34,7 +34,7 @@
             "name": "Twitter"
           }
         ],
-        "title": "Partners and speakers"
+        "title": "Sponsors"
       },
       {
         "name": "Honza Steinbach",
@@ -52,6 +52,40 @@
           }
         ],
         "title": "Happiness of visitors"
+      },
+      {
+        "name": "Lukáš Vaculík",
+        "photoUrl": "/images/people/lukas_vaculik.jpg",
+        "socials": [
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/D3VL3R",
+            "name": "Twitter"
+          },
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com/vaculik.luk",
+            "name": "Facebook"
+          }
+        ],
+        "title": "Social Media"
+      },
+      {
+        "name": "Marcel Láža",
+        "photoUrl": "/images/people/marcel_laza.jpg",
+        "socials": [
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/lazamarcel",
+            "name": "Twitter"
+          },
+          {
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/in/marcellaza",
+            "name": "LinkedIn"
+          }
+        ],
+        "title": "Speakers"
       }
     ]
   }

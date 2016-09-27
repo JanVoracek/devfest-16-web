@@ -194,7 +194,7 @@
         ],
 
         _onTouchStart: function (e) {
-          var touchObj = e.changedTouches[0];
+          var touchObj = e.changedTouches[ 0 ];
           this.startX = touchObj.pageX;
           this.startY = touchObj.pageY;
           this.nodeWidth = e.currentTarget.offsetWidth;
@@ -205,7 +205,7 @@
           this.threshold = this.nodeWidth / 4;
           // maximum distance allowed at the same time in perpendicular direction
           this.restraint = 100;
-          var touchObj = e.changedTouches[0];
+          var touchObj = e.changedTouches[ 0 ];
           // get horizontal dist traveled by finger while in contact with surface;
           this.distX = touchObj.pageX - this.startX;
           // get vertical dist traveled by finger while in contact with surface
@@ -236,7 +236,7 @@
 
         shiftContentLeft: function () {
           var videos = Polymer.dom(this.root).querySelectorAll('.video-item');
-          var cardRect = videos[videos.length - 1].getBoundingClientRect();
+          var cardRect = videos[ videos.length - 1 ].getBoundingClientRect();
           var cardWidth = cardRect.width;
           var newX = -(this._currentIndex - 1) * cardWidth;
           if (this._currentIndex < videos.length && this._currentIndex > 0) {
@@ -247,7 +247,7 @@
 
         shiftContentRight: function () {
           var videos = Polymer.dom(this.root).querySelectorAll('.video-item');
-          var cardRect = videos[videos.length - 1].getBoundingClientRect();
+          var cardRect = videos[ videos.length - 1 ].getBoundingClientRect();
           var cardWidth = cardRect.width;
           var newX = -(this._currentIndex + 1) * cardWidth;
           if (this._currentIndex >= 0 && this._currentIndex < videos.length - 1) {

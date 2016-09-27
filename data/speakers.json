@@ -1,1 +1,162 @@
-{}
+{
+  "1": {
+    "id": 1,
+    "featured": true,
+    "name": "David Vávra",
+    "title": "Developer Advocate",
+    "company": "Step Up Labs",
+    "companyLogo": "/images/logos/stepuplabs.svg",
+    "country": "Prague, Czech Republic",
+    "photoUrl": "/images/people/david_vavra.jpg",
+    "shortBio": "David is a Google Developer Expert for Android. He is a CEO now, but he still finds time for diving deep into Android architecture...",
+    "bio": "David is a Google Developer Expert for Android. He is a CEO now, but he still finds time for diving deep into Android architecture. He currently focuses on Firebase for Android. He loves open-source and gadgets like Android Wear or Android TV. He is the core organiser of GDG Prague events.",
+    "tags": [
+      "Android",
+      "Firebase"
+    ],
+    "badges": [
+      {
+        "name": "GDE",
+        "description": "Android Google Developer Expert",
+        "link": "https://developers.google.com/experts/people/david-v-vra"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/meteatamel/"
+      },
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/meteatamel/"
+      },
+      {
+        "icon": "github",
+        "name": "GitHub",
+        "link": "https://github.com/meteatamel/"
+      }
+    ]
+  },
+  "2": {
+    "id": 2,
+    "featured": true,
+    "name": "David Vávra",
+    "title": "Developer Advocate",
+    "company": "Step Up Labs",
+    "companyLogo": "/images/logos/stepuplabs.svg",
+    "country": "Prague, Czech Republic",
+    "photoUrl": "/images/people/david_vavra.jpg",
+    "shortBio": "David is a Google Developer Expert for Android. He is a CEO now, but he still finds time for diving deep into Android architecture...",
+    "bio": "David is a Google Developer Expert for Android. He is a CEO now, but he still finds time for diving deep into Android architecture. He currently focuses on Firebase for Android. He loves open-source and gadgets like Android Wear or Android TV. He is the core organiser of GDG Prague events.",
+    "tags": [
+      "Android",
+      "Firebase"
+    ],
+    "badges": [
+      {
+        "name": "GDE",
+        "description": "Android Google Developer Expert",
+        "link": "https://developers.google.com/experts/people/david-v-vra"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/meteatamel/"
+      },
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/meteatamel/"
+      },
+      {
+        "icon": "github",
+        "name": "GitHub",
+        "link": "https://github.com/meteatamel/"
+      }
+    ]
+  },
+  "3": {
+    "id": 3,
+    "featured": true,
+    "name": "David Vávra",
+    "title": "Developer Advocate",
+    "company": "Step Up Labs",
+    "companyLogo": "/images/logos/stepuplabs.svg",
+    "country": "Prague, Czech Republic",
+    "photoUrl": "/images/people/david_vavra.jpg",
+    "shortBio": "David is a Google Developer Expert for Android. He is a CEO now, but he still finds time for diving deep into Android architecture...",
+    "bio": "David is a Google Developer Expert for Android. He is a CEO now, but he still finds time for diving deep into Android architecture. He currently focuses on Firebase for Android. He loves open-source and gadgets like Android Wear or Android TV. He is the core organiser of GDG Prague events.",
+    "tags": [
+      "Android",
+      "Firebase"
+    ],
+    "badges": [
+      {
+        "name": "GDE",
+        "description": "Android Google Developer Expert",
+        "link": "https://developers.google.com/experts/people/david-v-vra"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/meteatamel/"
+      },
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/meteatamel/"
+      },
+      {
+        "icon": "github",
+        "name": "GitHub",
+        "link": "https://github.com/meteatamel/"
+      }
+    ]
+  },
+  "4": {
+    "id": 4,
+    "featured": true,
+    "name": "David Vávra",
+    "title": "Developer Advocate",
+    "company": "Step Up Labs",
+    "companyLogo": "/images/logos/stepuplabs.svg",
+    "country": "Prague, Czech Republic",
+    "photoUrl": "/images/people/david_vavra.jpg",
+    "shortBio": "David is a Google Developer Expert for Android. He is a CEO now, but he still finds time for diving deep into Android architecture...",
+    "bio": "David is a Google Developer Expert for Android. He is a CEO now, but he still finds time for diving deep into Android architecture. He currently focuses on Firebase for Android. He loves open-source and gadgets like Android Wear or Android TV. He is the core organiser of GDG Prague events.",
+    "tags": [
+      "Android",
+      "Firebase"
+    ],
+    "badges": [
+      {
+        "name": "GDE",
+        "description": "Android Google Developer Expert",
+        "link": "https://developers.google.com/experts/people/david-v-vra"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/meteatamel/"
+      },
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/meteatamel/"
+      },
+      {
+        "icon": "github",
+        "name": "GitHub",
+        "link": "https://github.com/meteatamel/"
+      }
+    ]
+  }
+}

@@ -54,6 +54,10 @@
     {
       "route": "blog",
       "permalink": "/blog/"
+    },
+    {
+      "route": "speakers",
+      "permalink": "/speakers/"
     }
   ],
   "url": "https://www.devfest.cz/",
