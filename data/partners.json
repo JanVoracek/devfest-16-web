@@ -15,6 +15,21 @@
     ]
   },
   {
+    "title": "gold-partners",
+    "logos": [
+      {
+        "name": "Netmail.eu",
+        "url": "https://netmail.eu/",
+        "logoUrl": "../images/logos/netmail.svg"
+      },
+      {
+        "name": "eMan s.r.o.",
+        "url": "https://www.eman.cz/",
+        "logoUrl": "../images/logos/eman.png"
+      }
+    ]
+  },
+  {
     "title": "general-media-partner",
     "logos": [
       {
@@ -31,6 +46,16 @@
         "name": "AIMTEC",
         "url": "http://www.aimtec.cz",
         "logoUrl": "../images/logos/aimtec.gif"
+      }
+    ]
+  },
+  {
+    "title": "media-partners",
+    "logos": [
+      {
+        "name": "Droidik.cz",
+        "url": "https://www.droidik.cz/",
+        "logoUrl": "../images/logos/droidik.png"
       }
     ]
   }

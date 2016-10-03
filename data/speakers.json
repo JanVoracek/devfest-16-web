@@ -2,25 +2,20 @@
   "1": {
     "id": 1,
     "featured": true,
-    "name": "David Vávra",
+    "name": "Mete Atamel",
     "title": "Developer Advocate",
-    "company": "Step Up Labs",
-    "companyLogo": "/images/logos/stepuplabs.svg",
-    "country": "Prague, Czech Republic",
-    "photoUrl": "/images/people/david_vavra.jpg",
-    "shortBio": "David is a Google Developer Expert for Android. He is a CEO now, but he still finds time for diving deep into Android architecture...",
-    "bio": "David is a Google Developer Expert for Android. He is a CEO now, but he still finds time for diving deep into Android architecture. He currently focuses on Firebase for Android. He loves open-source and gadgets like Android Wear or Android TV. He is the core organiser of GDG Prague events.",
+    "company": "Google",
+    "companyLogo": "/images/logos/google.svg",
+    "country": "London, United Kingdom",
+    "photoUrl": "/images/people/mete_atamel.jpg",
+    "shortBio": "I'm a Developer Advocate at Google, currently focused on helping developers with Google Cloud Platform.",
+    "bio": "I'm a Developer Advocate at Google, currently focused on helping developers with Google Cloud Platform. As a long-time Java and a recent C# developer, I like to compare the two ecosystems. Prior to Google, I worked at Microsoft, Skype, Adobe, EMC, and Nokia building apps and services on various web, mobile and cloud platforms. Originally from Cyprus, I currently live in Greenwich, not too far away from the prime meridian.",
     "tags": [
-      "Android",
-      "Firebase"
+      "Cloud",
+      "Compute Engine",
+      "gRPC"
     ],
-    "badges": [
-      {
-        "name": "GDE",
-        "description": "Android Google Developer Expert",
-        "link": "https://developers.google.com/experts/people/david-v-vra"
-      }
-    ],
+    "badges": [],
     "socials": [
       {
         "icon": "linkedin",
@@ -43,12 +38,12 @@
     "id": 2,
     "featured": true,
     "name": "David Vávra",
-    "title": "Developer Advocate",
+    "title": "CEO",
     "company": "Step Up Labs",
     "companyLogo": "/images/logos/stepuplabs.svg",
     "country": "Prague, Czech Republic",
     "photoUrl": "/images/people/david_vavra.jpg",
-    "shortBio": "David is a Google Developer Expert for Android. He is a CEO now, but he still finds time for diving deep into Android architecture...",
+    "shortBio": "David is a Google Developer Expert for Android. He is a CEO now, but he still finds time for diving deep into Android architecture.",
     "bio": "David is a Google Developer Expert for Android. He is a CEO now, but he still finds time for diving deep into Android architecture. He currently focuses on Firebase for Android. He loves open-source and gadgets like Android Wear or Android TV. He is the core organiser of GDG Prague events.",
     "tags": [
       "Android",
@@ -65,97 +60,82 @@
       {
         "icon": "linkedin",
         "name": "LinkedIn",
-        "link": "https://www.linkedin.com/in/meteatamel/"
+        "link": "https://www.linkedin.com/in/dvavra/"
       },
       {
         "icon": "twitter",
         "name": "Twitter",
-        "link": "https://twitter.com/meteatamel/"
+        "link": "https://twitter.com/vavradav/"
       },
       {
         "icon": "github",
         "name": "GitHub",
-        "link": "https://github.com/meteatamel/"
+        "link": "https://github.com/davidvavra/"
       }
     ]
   },
   "3": {
     "id": 3,
     "featured": true,
-    "name": "David Vávra",
-    "title": "Developer Advocate",
-    "company": "Step Up Labs",
-    "companyLogo": "/images/logos/stepuplabs.svg",
-    "country": "Prague, Czech Republic",
-    "photoUrl": "/images/people/david_vavra.jpg",
-    "shortBio": "David is a Google Developer Expert for Android. He is a CEO now, but he still finds time for diving deep into Android architecture...",
-    "bio": "David is a Google Developer Expert for Android. He is a CEO now, but he still finds time for diving deep into Android architecture. He currently focuses on Firebase for Android. He loves open-source and gadgets like Android Wear or Android TV. He is the core organiser of GDG Prague events.",
+    "name": "Sofiya Huts",
+    "title": "Full Stack Software Engineer",
+    "company": "JustAnswer.com",
+    "companyLogo": "/images/logos/justanswer.com.png",
+    "country": "Lviv, Ukraine",
+    "photoUrl": "/images/people/sofia_huts.jpg",
+    "shortBio": "Sofia is a manager of GDG Lviv (http://lviv.gdg.org.ua/) and also leads local WTM (Women Techmakers https://www.womentechmakers.com/) community in Lviv.",
+    "bio": "Sofia is a manager of GDG Lviv (http://lviv.gdg.org.ua/) and also leads local WTM (Women Techmakers https://www.womentechmakers.com/) community in Lviv. Additionally, one of organisers of GDG DevFest Ukraine (https://devfest.gdg.org.ua/). Despite that fact that Sofia has been working as Full-stack .Net developer during last 2 years, she is really passionate about front-end stuff, especially everything related to Progressive Web Apps and developing fancy web application using Polymer.",
     "tags": [
-      "Android",
+      "Polymer",
       "Firebase"
     ],
-    "badges": [
-      {
-        "name": "GDE",
-        "description": "Android Google Developer Expert",
-        "link": "https://developers.google.com/experts/people/david-v-vra"
-      }
-    ],
+    "badges": [],
     "socials": [
       {
         "icon": "linkedin",
         "name": "LinkedIn",
-        "link": "https://www.linkedin.com/in/meteatamel/"
+        "link": "https://www.linkedin.com/in/sofiya-huts-4b314a9a"
       },
       {
         "icon": "twitter",
         "name": "Twitter",
-        "link": "https://twitter.com/meteatamel/"
-      },
-      {
-        "icon": "github",
-        "name": "GitHub",
-        "link": "https://github.com/meteatamel/"
+        "link": "https://twitter.com/sophie.huts.7/"
       }
     ]
   },
   "4": {
     "id": 4,
     "featured": true,
-    "name": "David Vávra",
-    "title": "Developer Advocate",
-    "company": "Step Up Labs",
-    "companyLogo": "/images/logos/stepuplabs.svg",
+    "name": "Honza Slavík",
+    "title": "Jedi Knight",
+    "company": "OVAX",
+    "companyLogo": "/images/logos/ovax.png",
     "country": "Prague, Czech Republic",
-    "photoUrl": "/images/people/david_vavra.jpg",
-    "shortBio": "David is a Google Developer Expert for Android. He is a CEO now, but he still finds time for diving deep into Android architecture...",
-    "bio": "David is a Google Developer Expert for Android. He is a CEO now, but he still finds time for diving deep into Android architecture. He currently focuses on Firebase for Android. He loves open-source and gadgets like Android Wear or Android TV. He is the core organiser of GDG Prague events.",
+    "photoUrl": "/images/people/honza_slavik.jpg",
+    "shortBio": "Honza is professional Jedi Knight. His work is care about balance of power at galaxy and czech companies. Do not try to understand me. You could go crazy over it. ;)",
+    "bio": "Honza is professional Jedi Knight. His work is care about balance of power at galaxy and czech companies. Do not try to understand me. You could go crazy over it. ;)",
     "tags": [
-      "Android",
-      "Firebase"
+      "Entrepreneurship",
+      "Google Apps",
+      "Lean Startup",
+      "Agile"
     ],
-    "badges": [
-      {
-        "name": "GDE",
-        "description": "Android Google Developer Expert",
-        "link": "https://developers.google.com/experts/people/david-v-vra"
-      }
-    ],
+    "badges": [],
     "socials": [
       {
         "icon": "linkedin",
         "name": "LinkedIn",
-        "link": "https://www.linkedin.com/in/meteatamel/"
+        "link": "https://cz.linkedin.com/in/honzaslavik"
       },
       {
         "icon": "twitter",
         "name": "Twitter",
-        "link": "https://twitter.com/meteatamel/"
+        "link": "https://twitter.com/honza_slavik"
       },
       {
-        "icon": "github",
-        "name": "GitHub",
-        "link": "https://github.com/meteatamel/"
+        "icon": "website",
+        "name": "Web",
+        "link": "http://www.honzaslavik.com/"
       }
     ]
   }

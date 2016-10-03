@@ -33,11 +33,11 @@
   "student-ticket-info": "Requires valid student ID",
   "early-ticket": "Early Bird",
   "early-ticket-starts": "Sep 1",
-  "early-ticket-ends": "Oct 1",
+  "early-ticket-ends": "Oct 10",
   "early-ticket-info": "",
   "lazy-ticket": "Lazy Bird",
-  "lazy-ticket-starts": "Oct 1",
-  "lazy-ticket-ends": "Nov 1",
+  "lazy-ticket-starts": "Oct 10",
+  "lazy-ticket-ends": "Nov 4",
   "team-page-title": "Team",
   "team-page-text": "[Google Users Group (GUG.cz)](http://www.gug.cz/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.",
   "description": "The biggest Google tech conference in Czech Republic.",
@@ -79,5 +79,9 @@
   "workshops": "Workshops",
   "warm-up-party-organiser": "Warm-Up Party Organiser",
   "general-media-partner": "General Information Partner",
-  "featured-stuff-title": "What is it going to be about?"
+  "featured-stuff-title": "What is it going to be about?",
+  "gold-partners": "Gold partners",
+  "media-partners": "Media partners",
+  "cfp-title": "Want to speak at DevFest Pilsen?",
+  "cfp-button": "Sign me up"
 }
