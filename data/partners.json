@@ -15,17 +15,29 @@
     ]
   },
   {
+    "title": "diamond-partners",
+    "logos": [
+      {
+        "name": "Eurosoftware s.r.o.",
+        "url": "https://www.gk-software.com/en/company/eurosoftware-s-r-o",
+        "logoUrl": "../images/logos/eurosoftware.svg",
+        "width": 260
+      }
+    ]
+  },
+  {
     "title": "gold-partners",
     "logos": [
       {
         "name": "Netmail.eu",
-        "url": "https://netmail.eu/",
+        "url": "http://netmail.eu/",
         "logoUrl": "../images/logos/netmail.svg"
       },
       {
         "name": "eMan s.r.o.",
         "url": "https://www.eman.cz/",
-        "logoUrl": "../images/logos/eman.png"
+        "logoUrl": "../images/logos/eman.png",
+        "width": 160
       }
     ]
   },
@@ -35,7 +47,8 @@
       {
         "name": "Dotekománie.cz",
         "url": "https://dotekomanie.cz/",
-        "logoUrl": "../images/logos/dotekomanie.png"
+        "logoUrl": "../images/logos/dotekomanie.png",
+        "width": 232
       }
     ]
   },
@@ -45,7 +58,8 @@
       {
         "name": "AIMTEC",
         "url": "http://www.aimtec.cz",
-        "logoUrl": "../images/logos/aimtec.gif"
+        "logoUrl": "../images/logos/aimtec.gif",
+        "width": 160
       }
     ]
   },
