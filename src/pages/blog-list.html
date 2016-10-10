@@ -128,25 +128,25 @@
             type: Object,
             value: function () {
               return {
-                'entry': [ {
+                'entry': [{
                   name: 'fade-in-animation',
                   animation: 'fade-in-animation',
                   node: this,
                   timing: {
                     delay: 500
                   }
-                } ],
-                'exit': [ {
+                }],
+                'exit': [{
                   name: 'fade-out-animation',
                   animation: 'fade-out-animation',
                   node: this
-                } ]
+                }]
               };
             }
           }
         },
 
-        _updateCascadedNodes: function () {
+        _updateCascadedNodes: function() {
           var cascaded = Polymer.dom(this.root).querySelectorAll('[cascaded]');
           var cascadedArray = Array.prototype.slice.call(cascaded);
           this.animationConfig.entry.push({

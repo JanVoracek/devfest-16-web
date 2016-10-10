@@ -31,12 +31,25 @@ from [GDG Lviv](http://lviv.gdg.org.ua/).
 ### Setup
 :book: [Full documentation](/docs/).
 
+##### Docker based development env
+
+If you don't want to bother with the dependencies, you can develop in the docker container.
+
+Build:
+
+    docker build -t hoverboard .
+
+and run:
+
+    docker run -it -v "$PWD":/app -p 8080:8080 hoverboard
+
+:book: Read more in [docker docs](/docs/tutorials/docker.md).
 
 ###### Prerequisites
 
 Install [polymer-cli](https://github.com/Polymer/polymer-cli):
 
-    npm i -g polymer-cli@0.12.0
+    npm i -g polymer-cli
     
 and [Bower](https://bower.io/):
     
@@ -71,9 +84,23 @@ generated using fragment bundling, suitable for serving from non
 H2/push-compatible servers or to clients that do not support H2/Push.
 
     polymer build
+
+Or you can build in Docker container:
+
+    docker run -v "$PWD":/app hoverboard polymer build
     
 :book: Read more in [deploy docs](/docs/tutorials/deploy.md).   
 
+### Updating
+Here is a git workflow for updating your fork (or downloaded copy) to the latest version:
+```
+git remote add upstream https://github.com/gdg-x/hoverboard.git
+git fetch upstream
+git merge upstream/master # OR git merge upstream/develop
+# resolve the merge conflicts in your editor
+git add . -u
+git commit -m 'Updated to the latest version'
+```
 
 ### Who uses the template?
 
@@ -93,6 +120,11 @@ pull request, so we can include you in this list.
 | [GDG Bingham University Website](http://bhu.gdg.ng) |
 | [Google I/O Extended 2016 Kuala Lumpur](https://ioxkl2016.firebaseapp.com) |
 | [GDG DevFest Hamburg 2016](https://hamburg.devfest.de) |
+| [GDG DevFest Mezam 2016](https://devfest-mezam.gdgbambili.xyz) |
+| [GDG DevFest Vietnam 2016](https://devfest.vn) |
+| [GDG DevFest Seattle 2016](https://devfest.gdgseattle.org) |
+| [GDG DevFest Belgium 2016](https://devfest.be) |
+| [GDG DevFest Lisbon 2016](https://devfestlisbon.firebaseapp.com) |
 
 ### Roadmap :rocket:
 :x: Admin panel  
