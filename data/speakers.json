@@ -206,8 +206,8 @@
     "company": "puzzlette",
     "country": "Pilsen, Czech Republic",
     "photoUrl": "/images/people/petr_fershmann.jpg",
-    "shortBio": "spoluzaložil a vedl cloudový účetní software ABRA @FlexiBee. Má rád backendy a proto dělá @fnxio. Teď rozjíždí další projekt, nechte se překvapit :-)",
-    "bio": "spoluzaložil a vedl cloudový účetní software ABRA @FlexiBee. Má rád backendy a proto dělá @fnxio. Teď rozjíždí další projekt, nechte se překvapit :-)",
+    "shortBio": "Co-founded and operated cloud based accounting system ABRA @FlexiBee. Loves backend and so he is involved in @fnxio. Now he's starting a new project.",
+    "bio": "Co-founded and operated cloud based accounting system ABRA @FlexiBee. Loves backend and so he is involved in @fnxio. Now he's starting a new project.",
     "tags": [
       "Backend",
       "REST API",
@@ -223,12 +223,36 @@
       {
         "icon": "website",
         "name": "Website",
-        "link": "www.ferschmann.cz"
+        "link": "http://www.ferschmann.cz"
       },
       {
         "icon": "linkedin",
         "name": "LinkedIn",
-        "link": "linkedin.com/in/fersman"
+        "link": "https://linkedin.com/in/fersman"
+      }
+    ]
+  },
+  "7": {
+    "id": 7,
+    "featured": true,
+    "name": "Juraj Oceliak",
+    "company": "eMan.cz",
+    "companyLogo": "/images/logos/eman.png",
+    "country": "Prague, Czech Republic",
+    "photoUrl": "/images/people/juraj_oceliak.jpg",
+    "shortBio": "Android Teamleader at eMan.cz where I work on variety of projects for large customers.",
+    "bio": "Android Teamleader at eMan.cz where I work on variety of projects for large customers.",
+    "tags": [
+      "Android",
+      "MVVM",
+      "RxJava"
+    ],
+    "badges": [],
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/juraj-oceliak-61a96486"
       }
     ]
   }
