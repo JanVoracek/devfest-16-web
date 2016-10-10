@@ -54,6 +54,11 @@
         "name": "GDE",
         "description": "Android Google Developer Expert",
         "link": "https://developers.google.com/experts/people/david-v-vra"
+      },
+      {
+        "name": "GDG",
+        "description": "Google Developers Group Prague",
+        "link": "http://www.gug.cz/cs/gdg/skupiny/prague"
       }
     ],
     "socials": [
@@ -136,6 +141,94 @@
         "icon": "website",
         "name": "Web",
         "link": "http://www.honzaslavik.com/"
+      }
+    ]
+  },
+  "5": {
+    "id": 5,
+    "featured": true,
+    "name": "Resul Caner Yıldırım",
+    "company": "InnovationBox",
+    "companyLogo": "/images/logos/innovation_box.png",
+    "country": "Istanbul, Turkey",
+    "photoUrl": "/images/people/resul_caner_yildirim.jpg",
+    "shortBio": "Caner is a GDE on UX/UI who is also a technology geek. Mainly focused on the design and marketing of mobile applications.",
+    "bio": "Caner is a GDE on UX/UI who is also a technology geek. Mainly focused on the design and marketing of mobile applications. Passionate about good UX, IoT and Android. He works at InnovationBox, a design agency in Istanbul making and creating apps that users love. Caner has been an organiser of GDG Istanbul since 2013, organising, participating, and speaking at events.",
+    "tags": [
+      "Android",
+      "UI/UX",
+      "Android Wear"
+    ],
+    "badges": [
+      {
+        "name": "GDE",
+        "description": "UI/UX Google Developer Expert",
+        "link": "https://developers.google.com/experts/people/resul-caner-y-ld-r-m.html"
+      },
+      {
+        "name": "GDG",
+        "description": "Google Developers Group Istanbul",
+        "link": "https://developers.google.com/groups/chapter/100514812580249787371/"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/protechman"
+      },
+      {
+        "icon": "gplus",
+        "name": "Google+",
+        "link": "https://plus.google.com/+rcaneryildirim"
+      },
+      {
+        "icon": "facebook",
+        "name": "Facebook",
+        "link": "https://facebook.com/r.caner.yildirim"
+      },
+      {
+        "icon": "website",
+        "name": "Website",
+        "link": "https://dribbble.com/protechman"
+      },
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://linkedin.com/in/protechman"
+      }
+    ]
+  },
+  "6": {
+    "id": 6,
+    "featured": true,
+    "name": "Petr Fershmann",
+    "company": "puzzlette",
+    "country": "Pilsen, Czech Republic",
+    "photoUrl": "/images/people/petr_fershmann.jpg",
+    "shortBio": "spoluzaložil a vedl cloudový účetní software ABRA @FlexiBee. Má rád backendy a proto dělá @fnxio. Teď rozjíždí další projekt, nechte se překvapit :-)",
+    "bio": "spoluzaložil a vedl cloudový účetní software ABRA @FlexiBee. Má rád backendy a proto dělá @fnxio. Teď rozjíždí další projekt, nechte se překvapit :-)",
+    "tags": [
+      "Backend",
+      "REST API",
+      "GraphQL"
+    ],
+    "badges": [],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/fersman"
+      },
+      {
+        "icon": "website",
+        "name": "Website",
+        "link": "www.ferschmann.cz"
+      },
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "linkedin.com/in/fersman"
       }
     ]
   }

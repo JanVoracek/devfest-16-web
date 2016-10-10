@@ -5,12 +5,14 @@
       {
         "name": "Google",
         "url": "https://www.google.cz/intl/en/about/",
-        "logoUrl": "../images/logos/google.svg"
+        "logoUrl": "../images/logos/google.svg",
+        "width": 140
       },
       {
         "name": "GUG.cz",
         "url": "http://www.gug.cz",
-        "logoUrl": "../images/logos/gug-cz.svg"
+        "logoUrl": "../images/logos/gug-cz.svg",
+        "width": 140
       }
     ]
   },
@@ -42,13 +44,20 @@
       {
         "name": "Netmail.eu",
         "url": "http://netmail.eu/",
-        "logoUrl": "../images/logos/netmail.svg"
+        "logoUrl": "../images/logos/netmail.svg",
+        "width": 80
       },
       {
         "name": "eMan s.r.o.",
         "url": "https://www.eman.cz/",
         "logoUrl": "../images/logos/eman.png",
-        "width": 160
+        "width": 140
+      },
+      {
+        "name": "Avast",
+        "url": "https://www.avast.com/",
+        "logoUrl": "../images/logos/avast.svg",
+        "width": 140
       }
     ]
   },

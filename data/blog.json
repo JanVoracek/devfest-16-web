@@ -7,5 +7,22 @@
     "secondaryColor": "#00BCD4",
     "image": "/images/posts/announce.jpg",
     "brief": "Have you ever been on any Devfest before? Have you ever met in one weekend hundreds of people with the same interests and passion as you have? Have you ever been in Pilsen? No? Then it is a great pleasure for us to welcome you here on Google Devfest 2016 website."
+  },
+  {
+    "id": "first-speakers-and-cfp",
+    "title": "First speakers and Call for Papers",
+    "posted": "2016-09-25",
+    "primaryColor": "#F44336",
+    "secondaryColor": "#F44336",
+    "image": "/images/posts/speakers_announced.jpg",
+    "brief": "Today we are announcing our first set of rockstar speakers that you will be able to meet at DevFest!!!"
+  },
+  {
+    "id": "free-tickets-contest",
+    "title": "Free Tickets Contest",
+    "posted": "2016-10-10",
+    "primaryColor": "#3F51B5",
+    "secondaryColor": "#3F51B5",
+    "brief": "Today we are announcing our first set of rockstar speakers that you will be able to meet at DevFest!!!"
   }
 ]
