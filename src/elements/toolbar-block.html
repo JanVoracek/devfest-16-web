@@ -101,6 +101,9 @@
                 <a href$="[[nav.permalink]]" class="nav-link">{{localize(nav.route)}}</a>
               </paper-tab>
             </template>
+            <paper-tab on-tap="_scrollToSchedule">
+              <span class="nav-link">SCHEDULE</span>
+            </paper-tab>
           </paper-tabs>
           <paper-tabs class="lang-tabs" selected="{{app.lang}}" attr-for-selected="name" noink>
             <template is="dom-if" if="[[_langIsNot(app.lang, 'cs')]]">
@@ -118,9 +121,7 @@
             <paper-icon-button class="lang-button" icon="flags:cz"></paper-icon-button>
           </div>-->
           <div class="action-button-wrapper" layout horizontal center-center>
-            <a href$="[[app.data.tickets.url]]" target="_blank" rel="noopener noreferrer" on-tap="_trackBuyClick">
-              <paper-button class="action-button">[[localize('buy-ticket')]]</paper-button>
-            </a>
+            <paper-button class="action-button" on-tap="_scrollToTickets">[[localize('buy-ticket')]]</paper-button>
           </div>
         </template>
       </div>
@@ -154,6 +155,29 @@
 
         togglePanel: function () {
           HOVERBOARD.Elements.Template.toggleDrawer();
+        },
+
+        _scrollToTickets: function () {
+          if (this.app.page !== 'home') {
+            this.set('app.page', 'home')
+          }
+          HOVERBOARD.Analytics.trackEvent('ticket', 'buy_click', 'header');
+          Polymer.AppLayout.scroll({
+            top: HOVERBOARD.Elements.Tickets.getBoundingClientRect().top,
+            behavior: 'smooth',
+            target: HOVERBOARD.Elements.Scroller
+          });
+        },
+
+        _scrollToSchedule: function () {
+          if (this.app.page !== 'home') {
+            this.set('app.page', 'home')
+          }
+          Polymer.AppLayout.scroll({
+            top: HOVERBOARD.Elements.Schedule.getBoundingClientRect().top,
+            behavior: 'smooth',
+            target: HOVERBOARD.Elements.Scroller
+          });
         },
 
         _stylesChanged: function (headerSettings) {
