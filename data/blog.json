@@ -25,5 +25,14 @@
     "secondaryColor": "#3F51B5",
     "image": "/images/posts/free_tickets_contest.png",
     "brief": "Here we are back with yet another update, this time, we prepared a Facebook contest for you."
+  },
+  {
+    "id": "meet-our-platinum-partner",
+    "title": "Meet our platinum partner AIMTEC",
+    "posted": "2016-10-13",
+    "primaryColor": "#F39323",
+    "secondaryColor": "#F39323",
+    "image": "/images/posts/aimtec_partner_1.jpg",
+    "brief": "Here you can read text from our Platinum partner AIMTEC whom are sponsoring the awesome Warm-up party on Day 0."
   }
 ]
