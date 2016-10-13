@@ -36,7 +36,7 @@
   },
   "2": {
     "id": 2,
-    "featured": true,
+    "featured": false,
     "name": "David Vávra",
     "title": "CEO",
     "company": "Step Up Labs",
@@ -206,7 +206,7 @@
   },
   "6": {
     "id": 6,
-    "featured": true,
+    "featured": false,
     "name": "Petr Ferschmann",
     "company": "puzzlette",
     "country": "Pilsen, Czech Republic",
@@ -239,7 +239,7 @@
   },
   "7": {
     "id": 7,
-    "featured": true,
+    "featured": false,
     "name": "Juraj Oceliak",
     "company": "eMan.cz",
     "companyLogo": "/images/logos/eman.png",
@@ -258,6 +258,34 @@
         "icon": "linkedin",
         "name": "LinkedIn",
         "link": "https://www.linkedin.com/in/juraj-oceliak-61a96486"
+      }
+    ]
+  },
+  "8": {
+    "id": 8,
+    "featured": true,
+    "name": "Martin Čacký",
+    "company": "Seznam.cz",
+    "companyLogo": "/images/logos/seznam.png",
+    "country": "Prague, Czech Republic",
+    "photoUrl": "/images/people/martin_cacky.jpg",
+    "shortBio": "Martin is a design leader. He strives to create environments where great design can take place.",
+    "bio": "Martin is a design leader. He strives to create environments where great design can take place.",
+    "tags": [
+      "Design",
+      "UI/UX"
+    ],
+    "badges": [],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/yayoozef"
+      },
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://cz.linkedin.com/in/martincacky"
       }
     ]
   }
