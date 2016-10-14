@@ -94,7 +94,13 @@
       "Polymer",
       "Firebase"
     ],
-    "badges": [],
+    "badges": [
+      {
+        "name": "GDG",
+        "description": "Google Developers Group Lviv",
+        "link": "https://developers.google.com/groups/chapter/102444623953913144164/"
+      }
+    ],
     "socials": [
       {
         "icon": "linkedin",
@@ -286,6 +292,74 @@
         "icon": "linkedin",
         "name": "LinkedIn",
         "link": "https://cz.linkedin.com/in/martincacky"
+      }
+    ]
+  },
+  "9": {
+    "id": 9,
+    "featured": true,
+    "name": "Oleh Zasadnyy",
+    "company": "N-iX / GDG Lviv",
+    "companyLogo": "/images/logos/n-ix.svg",
+    "country": "Lviv, Ukraine",
+    "photoUrl": "/images/people/oleh_zasadnyy.jpg",
+    "shortBio": "Oleh is a front-end developer who is passionate by new technologies and design.",
+    "bio": "Oleh is a front-end developer who is passionate by new technologies and design. He also is a GDG Lviv organizer last 5 years, which is famous for their high-level organized conferences. Besides that, he participates in GDG design competitions and always in the top three. Oleh has created several front-end Open Source projects. The most popular are event website templates, one of them you are looking at.",
+    "tags": [
+      "Polymer",
+      "Progressive web",
+      "Javascript"
+    ],
+    "badges": [
+      {
+        "name": "GDG",
+        "description": "Google Developers Group Lviv",
+        "link": "https://developers.google.com/groups/chapter/102444623953913144164/"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/ozasadnyy"
+      },
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/ozasadnyy"
+      },
+      {
+        "icon": "website",
+        "name": "Website",
+        "link": "http://o.zasadnyy.com/"
+      }
+    ]
+  },
+  "10": {
+    "id": 10,
+    "featured": true,
+    "name": "Silvana Wasitova",
+    "company": "Wasitova Solutions",
+    "companyLogo": "",
+    "country": "Lausanne, Switzerland",
+    "photoUrl": "/images/people/silvana_wasitova.jpg",
+    "shortBio": "Silvana Wasitova CSP and PMP, started her Scrum journey as part of the Agile transformation at Yahoo!, and used Scrum to successfully deliver FIFA Worldcup 2006 and Olympics 2008 portals.",
+    "bio": "Silvana Wasitova CSP and PMP, started her Scrum journey as part of the Agile transformation at Yahoo!, and used Scrum to successfully deliver FIFA Worldcup 2006 and Olympics 2008 portals. Silvana has coached multinational enterprises in their Agile transformation journeys in United States and across Europe. Silvana lives and breathes the agile value of “People over Process”, and brings that to the forefront in her coaching approaches, while still focused on the client’s audacious goals and desired results. Her experiences include implementing and coaching scrum transformation in Yahoo, Nestle, Roche, Skype, Microsoft, Aviva and a private Swiss bank.",
+    "tags": [
+      "Agile",
+      "Scrum"
+    ],
+    "badges": [],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/wasitova"
+      },
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/wasitova"
       }
     ]
   }
