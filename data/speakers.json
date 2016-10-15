@@ -362,5 +362,35 @@
         "link": "https://www.linkedin.com/in/wasitova"
       }
     ]
+  },
+  "11": {
+    "id": 11,
+    "featured": true,
+    "name": "Tomáš Zvěřina",
+    "company": "FNX.io",
+    "companyLogo": "/images/logos/fnxio.svg",
+    "country": "Prague, Czech Republic",
+    "photoUrl": "/images/people/tomas_zverina.jpg",
+    "shortBio": "Full stack developer, Google Developer Expert for Cloud Platform, Dart enthusiast, father of kids and OSS libraries.",
+    "bio": "Full stack developer, Google Developer Expert for Cloud Platform, Dart enthusiast, father of kids and OSS libraries.",
+    "tags": [
+      "Dart",
+      "Angular",
+      "Backend",
+      "App Engine"
+    ],
+    "badges": [],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/tomucha"
+      },
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://cz.linkedin.com/in/tomucha"
+      }
+    ]
   }
 }
