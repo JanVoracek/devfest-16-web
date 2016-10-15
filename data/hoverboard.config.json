@@ -44,6 +44,14 @@
         "fontColor": "#fff",
         "tabBarColor": "#fff"
       }
+    },
+    "hub": {
+      "headerSettings": {
+        "backgroundColor": "#607D8B",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff",
+        "backgroundImage": "/images/posts/speakers_announced.jpg"
+      }
     }
   },
   "navigation": [

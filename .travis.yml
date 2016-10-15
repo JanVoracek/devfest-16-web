@@ -1,0 +1,24 @@
+language: node_js
+node_js: 6
+
+cache:
+  directories:
+  - node_modules  # NPM packages
+  - bower_components  # bower packages
+  - /home/travis/.nvm/versions/node/v6.5.0/lib/node_modules  # global NPM packages
+
+install:
+  - npm install -g bower polymer-cli@0.12.0
+  - bower install
+
+script: echo "Deploying!"
+
+before_deploy: polymer build
+deploy:
+  - provider: firebase
+    skip_cleanup: true
+    on:
+      tags: true
+    project: devfestcz-b77a3
+    token:
+      secure: "IukQTumvRMkMbAfUmItuAP9i8qSkcdHpFeUkzooaeWRI/S3GzGL/dvOsYc819nGOkTf4Fzb7O1GsE4I6MrcGcWW9QfnRRf61rL1wBP7seTUWXJlMzjoxOh0q4zWzGAHL4jG0YG9yoNsmfKYZ6iTZixHkwaPKCy+4MOV9k4YjuNYditnuwIn/3CqONgK7ii/3VxvO5Oz/QrBhIXYi4iJB+3b1lsYlUuC8PgoXd41HnLlnOC1zhkXYCr728LtXdS6iZc1YGFgpwXUWnxDpfLn0u7C+h/9oxUeO7hTgBT/MAUgFjhvn+Tbgp0EZ5+EIOPx5fQls9eJWtlm8+UWq/2L2U0IU3qJ1a8J+0yepjgmea0w+Rs2MjJtxPt0OE9z7yjM5g/Pxwzkpa8YCTg1QCb+1MM1M143ddovVEgvj5KXo3huOTz7hE2ZWDS8R58+DCuDVswwZT5QI9rRxy+H0YZ69tJ/XTDYO5nRhBJVOLTHslCVhlOOb8eOmrTM5z3FsacSmXmxLFB66B2nsIdmom1frjlNi0ctrfy5DYf/+PRZOd2iRXfR3AIPu2rJ+nHllrDqWc4mQj9prWcsKiYLDvm75dNF1+YOEnqOJItiQrpR0nxtFZ7fp7VQtt8TdEUUVzQ9uqq5RECqFzRclGSgF0M3lOQC+uZuNrVBiN0SKJNk6poE="

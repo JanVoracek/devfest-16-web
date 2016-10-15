@@ -58,6 +58,12 @@
         "url": "https://www.avast.com/",
         "logoUrl": "../images/logos/avast.svg",
         "width": 140
+      },
+      {
+        "name": "ASUS",
+        "url": "https://www.asus.com/",
+        "logoUrl": "../images/logos/asus.svg",
+        "width": 120
       }
     ]
   },
