@@ -64,6 +64,12 @@
         "url": "https://www.asus.com/",
         "logoUrl": "../images/logos/asus.svg",
         "width": 120
+      },
+      {
+        "name": "FNX.io",
+        "url": "https://www.fnx.io/",
+        "logoUrl": "../images/logos/fnxio.svg",
+        "width": 100
       }
     ]
   },
