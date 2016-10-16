@@ -1,0 +1,80 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<link rel="import" href="../behaviors/page-behavior.html">
+<link rel="import" href="../behaviors/share-behavior.html">
+<link rel="import" href="../elements/sessions-list.html">
+
+<dom-module id="sessions-page">
+
+  <template>
+
+    <sessions-list id="sessionList"
+                   name=""
+                   app="{{app}}"
+                   sessions="[[convertSessionsToArray(sessions)]]"
+                   speakers="[[speakers]]"></sessions-list>
+
+  </template>
+
+  <script>
+    (function () {
+      'use strict';
+
+      Polymer({
+
+        is: 'sessions-page',
+
+        behaviors: [
+          Polymer.NeonAnimatableBehavior,
+          HOVERBOARD.PageBehavior
+        ],
+
+        properties: {
+          route: {
+            type: Object
+          },
+
+          sessions: {
+            type: Object
+          },
+
+          speakers: {
+            type: Object
+          },
+
+          animationConfig: {
+            type: Object,
+            value: function () {
+              return {
+                'entry': [ {
+                  name: 'fade-in-animation',
+                  animation: 'fade-in-animation',
+                  node: this,
+                  timing: {
+                    delay: 500
+                  }
+                } ],
+                'exit': [ {
+                  name: 'fade-out-animation',
+                  animation: 'fade-out-animation',
+                  node: this
+                } ]
+              };
+            }
+          }
+        },
+
+        convertSessionsToArray: function (sessionsObject) {
+          var sessionsArray = []
+          Object.keys(sessionsObject).forEach(function (key) {
+            sessionsArray.push(sessionsObject[key])
+          }.bind(this))
+          return sessionsArray
+        }
+
+      });
+
+    }());
+  </script>
+
+</dom-module>

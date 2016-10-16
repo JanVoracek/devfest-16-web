@@ -101,9 +101,6 @@
                 <a href$="[[nav.permalink]]" class="nav-link">{{localize(nav.route)}}</a>
               </paper-tab>
             </template>
-            <paper-tab on-tap="_scrollToSchedule">
-              <span class="nav-link">SCHEDULE</span>
-            </paper-tab>
           </paper-tabs>
           <paper-tabs class="lang-tabs" selected="{{app.lang}}" attr-for-selected="name" noink>
             <template is="dom-if" if="[[_langIsNot(app.lang, 'cs')]]">

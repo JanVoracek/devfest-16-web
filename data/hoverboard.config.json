@@ -52,6 +52,13 @@
         "tabBarColor": "#fff",
         "backgroundImage": "/images/posts/speakers_announced.jpg"
       }
+    },
+    "sessions": {
+      "headerSettings": {
+        "backgroundColor": "#009688",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
     }
   },
   "navigation": [
@@ -66,6 +73,10 @@
     {
       "route": "speakers",
       "permalink": "/speakers/"
+    },
+    {
+      "route": "sessions",
+      "permalink": "/sessions/"
     }
   ],
   "url": "https://www.devfest.cz/",

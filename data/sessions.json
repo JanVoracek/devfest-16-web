@@ -1,8 +1,146 @@
 {
-  "140": {
-    "id": 140,
-    "title": "TBD",
-    "description": "TBD",
-    "language": "English"
+  "100": {
+    "id": 100,
+    "title": "Firebase + Kotlin + MVP + Rx: Practical Tips",
+    "description": "New Firebase products announced at I/O make an Android developer’s life so much easier. We have been happily developing with it since January 2016. Sample projects work great, but what if your database structure is complex and you want a solid architecture with MVP, RxJava and Kotlin? Come to learn some practical tips.",
+    "speakers": [
+      2
+    ],
+    "language": "English",
+    "complexity": "Advanced",
+    "tags": [
+      "Android",
+      "Firebase",
+      "MVP"
+    ]
+  },
+  "200": {
+    "id": 200,
+    "title": "Wanna more fire? - Let's try polymerfire!",
+    "description": "Have you ever tried to build Web application using Polymer with Firebase integration, additionally adhere to PWA's canons? I have, and know how many surprises can be found during developmet :). Polymerfire is a great Polymer Web Component Firebase and looks very easy to play with. During my talk I want to dive into tips & tricks on how you can integrate your web app on Polymer with Firebase + how to add offline support (since Firebase uses web sockets for data transferring, service worker will not help in that case).",
+    "speakers": [
+      3
+    ],
+    "language": "English",
+    "complexity": "Advanced",
+    "tags": [
+      "Polymer",
+      "Firebase"
+    ]
+  },
+  "300": {
+    "id": 300,
+    "title": "Projektoví Zombíci",
+    "description": "Projektové řízení je plné přežitých dogmat a nesmyslů, které ovšem stále předáváme dál a ještě hůře, vyžadujeme u certifikací. A přitom většinu teorie můžeme s klidem zahodit a k celé problematice přistupovat jinak. Kostlivce ze skříně ven a projektové zombíky do hrobu.",
+    "speakers": [
+      4
+    ],
+    "language": "Czech",
+    "complexity": "Advanced",
+    "tags": [
+      "Entrepreneurship",
+      "Project management"
+    ]
+  },
+  "400": {
+    "id": 400,
+    "title": "REST API je mrtvé, ať žije GraphQL",
+    "description": "REST se stal standardem pro API. Poslední dobou se ale ukazuje, že není vhodné pro uživatelské rozhraní. Facebook nám nabídl GraphQL a skvělou knihovnu Relay, která usnadňuje a zrychluje práci s daty v aplikacích. ",
+    "speakers": [
+      6
+    ],
+    "language": "Czech",
+    "complexity": "Advanced",
+    "tags": [
+      "Web",
+      "GraphQL",
+      "REST API"
+    ]
+  },
+  "500": {
+    "id": 500,
+    "title": "Improve Your Android App's UX With Accessibility",
+    "description": "Accessibility is a very important step to make sure that your app reaches everyone in an easy and fun way to use. Good accessibility support means much more than just making sure the app supports screen readers, different fonts sizes and good contrast ratios. It is a learning process, and one in which we ourselves still have much to learn and explore.",
+    "speakers": [
+      5
+    ],
+    "language": "English",
+    "complexity": "Advanced",
+    "tags": [
+      "Android",
+      "UI/UX"
+    ]
+  },
+  "600": {
+    "id": 600,
+    "title": "Make your Polymer web-app Progressive",
+    "description": "Polymer helps you organize your app and make it more meaningful. In this talk, I will show you how to make your app load faster with app shell, lazy loading etc. and another Tip and Tricks in PWA.",
+    "speakers": [
+      9
+    ],
+    "language": "English",
+    "complexity": "Advanced",
+    "tags": [
+      "Polymer",
+      "Web"
+    ]
+  },
+  "700": {
+    "id": 700,
+    "title": "Angular2.Dart",
+    "description": "How to start developing in Dart and how to build applications with Angular2.",
+    "speakers": [
+      11
+    ],
+    "language": "Czech",
+    "complexity": "Beginner",
+    "tags": [
+      "Dart",
+      "Angular2"
+    ]
+  },
+  "800": {
+    "id": 800,
+    "title": "Everybody is a designer",
+    "description": "Whether you write code, design component architecture, create wireframes or icons and color palettes you influences the experience a person will have with your product - everyone at a product company does. Come and hear how you can participate in the design process and make your (design) decisions more informed.",
+    "speakers": [
+      8
+    ],
+    "language": "English",
+    "complexity": "Beginner",
+    "tags": [
+      "UI/UX",
+      "Design"
+    ]
+  },
+  "900": {
+    "id": 900,
+    "title": "Iterative Product Development",
+    "description": "We have an idea for a great product! Or do we? In this session we will explore cases where iterations can help define and grow the best product.",
+    "speakers": [
+      10
+    ],
+    "language": "English",
+    "complexity": "Beginner",
+    "tags": [
+      "Entrepreneurship",
+      "Agile",
+      "Scrum",
+      "Product development"
+    ]
+  },
+  "1000": {
+    "id": 1000,
+    "title": "Building data-driven IoT mobile applications",
+    "description": "I will be talk about how to use data from various IoT devices, sensors, open datasets for building mobile apps. How to store data in real time database in Firebase and how to design interfaces that will interact with these devices.",
+    "speakers": [
+      13
+    ],
+    "language": "Czech",
+    "complexity": "Beginner",
+    "tags": [
+      "IoT",
+      "Firebase"
+    ]
   }
 }

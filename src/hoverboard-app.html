@@ -184,6 +184,11 @@
           <hub-page name="hub"
                     app="{{app}}"></hub-page>
 
+          <sessions-page name="sessions"
+                         app="{{app}}"
+                         sessions="{{sessions}}"
+                         speakers="{{speakers}}"></sessions-page>
+
         </neon-animated-pages>
       </div>
 
@@ -245,6 +250,7 @@
             HOVERBOARD.ServiceWorkerRegistration.register();
             this.importHref(this.resolveUrl('pages/schedule-page.html'), null, null, true);
             this.importHref(this.resolveUrl('pages/speakers-page.html'), null, null, true);
+            this.importHref(this.resolveUrl('pages/sessions-page.html'), null, null, true);
             this.importHref(this.resolveUrl('pages/blog-page.html'), null, null, true);
           }.bind(this));
         },
@@ -253,13 +259,13 @@
           // Scroll to the top of the page on every *route* change. Use `Polymer.AppLayout.scroll`
           // with `behavior: 'silent'` to disable header scroll effects during the scroll.
           if (this.app.page !== page) {
-            Polymer.AppLayout.scroll({top: 0, behavior: 'silent'});
+            Polymer.AppLayout.scroll({ top: 0, behavior: 'silent' });
           }
           this.set('app.page', (page || 'home'));
           // Close the drawer - in case the *route* change came from a link in the drawer.
           this.drawerOpened = false;
           if (this.app.data) {
-            var navObject = this.app.data.pages[this.app.page];
+            var navObject = this.app.data.pages[ this.app.page ];
             if (navObject && navObject.headerSettings) {
               this.set('app.headerSettings', navObject.headerSettings);
             }
@@ -268,14 +274,14 @@
 
         stylesChanged: function () {
           if (!this.app.headerSettings) return;
-          this.customStyle['--header-background'] = this.app.headerSettings.backgroundColor;
-          this.customStyle['--header-color'] = this.app.headerSettings.fontColor;
-          this.customStyle['--header-background-image'] = 'url(' + this.app.headerSettings.backgroundImage + ')';
-          this.customStyle['--header-background-gradient'] = 'linear-gradient(to bottom, ' +
+          this.customStyle[ '--header-background' ] = this.app.headerSettings.backgroundColor;
+          this.customStyle[ '--header-color' ] = this.app.headerSettings.fontColor;
+          this.customStyle[ '--header-background-image' ] = 'url(' + this.app.headerSettings.backgroundImage + ')';
+          this.customStyle[ '--header-background-gradient' ] = 'linear-gradient(to bottom, ' +
             this.app.headerSettings.backgroundColor + ' 0%, rgba(0, 0, 0, 0) 35%, ' +
             this.app.headerSettings.backgroundColor + ' 140%)';
-          this.customStyle['--min-header-height'] = this.app.headerSettings.minHeight;
-          document.getElementsByName('theme-color')[0].content = this.app.headerSettings.backgroundColor;
+          this.customStyle[ '--min-header-height' ] = this.app.headerSettings.minHeight;
+          document.getElementsByName('theme-color')[ 0 ].content = this.app.headerSettings.backgroundColor;
           this.updateStyles();
           this.$.header.resetLayout();
         },

@@ -6,15 +6,13 @@
 <link rel="import" href="../../bower_components/paper-material/paper-material.html">
 <link rel="import" href="../../bower_components/paper-button/paper-button.html">
 
-<link rel="import" href="../../bower_components/marked-element/marked-element.html">
-
 <link rel="import" href="../../bower_components/neon-animation/neon-shared-element-animatable-behavior.html">
 
 <link rel="import" href="../elements/footer-block.html">
 <link rel="import" href="../behaviors/page-behavior.html">
 
 
-<dom-module id="blog-list">
+<dom-module id="sessions-list">
 
   <template>
 
@@ -22,8 +20,7 @@
       :host {
         display: block;
         --grid-column-width: 396px;
-        --grid-gutter: 4px;
-        --grid-item-height: calc(3 * var(--grid-column-width) / 4);
+        --grid-gutter: 8px;
       }
 
       .sessions-container {
@@ -33,37 +30,82 @@
         max-width: calc(2 * var(--grid-column-width) + 4 * var(--grid-gutter));
       }
 
-      .post {
+      .session {
         @apply(--layout-vertical);
         margin: var(--grid-gutter);
         width: var(--grid-column-width);
         height: var(--grid-item-height);
         text-decoration: none;
-      }
-
-      .post:first-of-type {
-        width: calc(100% - 2 * var(--grid-gutter));
-        height: calc(var(--grid-column-width) + 2 * var(--grid-gutter));
-      }
-
-      .image {
-        height: 100%;
-        background: no-repeat 50% 50%;
-        opacity: 0.7;
-        transition: opacity 0.5s;
+        padding: 0 32px 16px;
+        box-sizing: border-box;
+        color: var(--primary-text-color);
+        background-color: #fafafa;
+        border: 1px solid #eaeaea;
       }
 
       .title {
         @apply(--layout-horizontal);
         @apply(--layout-center-center);
-        padding: 12px;
+        padding: 32px 16px 16px;
         min-height: 42px;
         font-size: 20px;
         font-weight: 300;
         text-align: center;
         letter-spacing: 0.8px;
         line-height: 1.05;
+      }
+
+      .sessions-more-coming {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin: 0 0 60px 0;
+      }
+
+      .speakers-container {
+        @apply(--layout-horizontal);
+        @apply(--layout-wrap);
+        @apply(--layout-center-justified);
+        margin: 16px 0 0 0;
+      }
+
+      .speaker {
+        @apply(--layout-horizontal);
+        @apply(--layout-center);
+      }
+
+      .speaker .photo {
+        width: 48px;
+        height: 48px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -webkit-border-radius: 24px;
+        -moz-border-radius: 24px;
+        border-radius: 24px;
+        margin: 0 16px 0 0;
+        border: 1px solid #eaeaea;
+      }
+
+      .tags {
+        @apply(--layout-self-stretch);
+        @apply(--layout-horizontal);
+        @apply(--layout-wrap);
+        @apply(--layout-center-justified);
+        font-size: 14px;
+        color: var(--primary-text-color);
+        margin: 0 0 16px 0;
+      }
+
+      .tag {
+        margin: 2px 0 0 2px;
+        padding: 1px 4px;
         color: #fff;
+        display: inline-block;
+        font-size: 12px;
+        border-radius: 2px;
+        background: var(--general);
       }
 
       @media (max-width: 600px) {
@@ -77,7 +119,7 @@
           max-width: none;
         }
 
-        .post {
+        .session {
           width: 100% !important;
           height: var(--grid-item-height) !important;
           margin: var(--grid-gutter) 0;
@@ -92,15 +134,29 @@
     </style>
 
     <div class="container sessions-container">
-      <template is="dom-repeat" items="[[posts]]" as="post" on-dom-change="_updateCascadedNodes">
-        <a href$="/blog/posts/[[post.id]]/" class="post"
-           style$="background-color: [[post.primaryColor]];" cascaded>
-          <iron-image class="image" src="[[post.image]]" style$="background-color: [[post.primaryColor]];"
-                      sizing="cover" preload fade></iron-image>
-          <div class="title" style$="background-color: [[post.secondaryColor]];">[[post.title]]</div>
-        </a>
+      <template is="dom-repeat" items="[[sessions]]" as="session" on-dom-change="_updateCascadedNodes">
+        <div class="session">
+          <div class="title">[[session.title]]</div>
+          <div class="tags">
+            <template is="dom-repeat" items="[[session.tags]]" as="tag">
+              <span class="tag" style$="{{_getCustomStyleValue(tag)}}">[[tag]]</span>
+            </template>
+          </div>
+          <div class="description">[[_shortenDesc(session.description)]]</div>
+          <div class="speakers-container">
+            <template is="dom-repeat" items="[[session.speakers]]" as="speakerId" on-dom-change="_updateCascadedNodes">
+              <div class="speaker">
+                <div class="photo" style$="background-image: url([[_getSpeakerPhotoById(speakerId)]])"></div>
+                <div class="name">[[_getSpeakerNameById(speakerId)]]</div>
+              </div>
+            </template>
+          </div>
+        </div>
       </template>
     </div>
+
+    <h2 class="sessions-more-coming">More coming soon...</h2>
+
     <footer-block app="{{app}}" cascaded></footer-block>
 
   </template>
@@ -111,17 +167,22 @@
 
       Polymer({
 
-        is: 'blog-list',
+        is: 'sessions-list',
 
         behaviors: [
           Polymer.NeonAnimationRunnerBehavior,
           Polymer.NeonSharedElementAnimatableBehavior,
+          HOVERBOARD.UtilsBehavior,
           HOVERBOARD.PageBehavior
         ],
 
         properties: {
-          posts: {
+          sessions: {
             type: Array
+          },
+
+          speakers: {
+            type: Object
           },
 
           animationConfig: {
@@ -164,6 +225,22 @@
             transformTo: 'translate3d(0, 100%, 0)',
             nodes: cascadedArray
           });
+        },
+
+        _getSpeakerNameById: function (speakerId) {
+          return this.speakers[speakerId].name
+        },
+
+        _getSpeakerPhotoById: function (speakerId) {
+          return this.speakers[speakerId].photoUrl
+        },
+
+        _shortenDesc: function (desc) {
+          return desc.length > 160 ? desc.substr(0, 160) + '...' : desc
+        },
+
+        _getCustomStyleValue: function (value) {
+          return 'background-color: ' + this.getComputedStyleValue('--' + this._generateClass(value)) || this.getComputedStyleValue('--general');
         }
 
       });
