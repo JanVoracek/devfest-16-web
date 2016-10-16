@@ -379,7 +379,13 @@
       "Backend",
       "App Engine"
     ],
-    "badges": [],
+    "badges": [
+      {
+        "name": "GDE",
+        "description": "Cloud Google Developer Expert",
+        "link": "https://developers.google.com/experts/people/tom-zv-ina"
+      }
+    ],
     "socials": [
       {
         "icon": "twitter",
@@ -390,6 +396,69 @@
         "icon": "linkedin",
         "name": "LinkedIn",
         "link": "https://cz.linkedin.com/in/tomucha"
+      }
+    ]
+  },
+  "12": {
+    "id": 12,
+    "featured": false,
+    "name": "Jakub Zíka",
+    "company": "AIMTEC",
+    "companyLogo": "/images/logos/aimtec.gif",
+    "country": "Pilsen, Czech Republic",
+    "photoUrl": "/images/people/jakub_zika.jpg",
+    "shortBio": "Student of University of West Bohemia and programmer at AIMTEC a.s. Interested in bleeding edge technology, mostly from Google",
+    "bio": "Student of University of West Bohemia and programmer at AIMTEC a.s. Interested in bleeding edge technology, mostly from Google",
+    "tags": [
+      "Tango",
+      "VR",
+      "AR"
+    ],
+    "badges": [],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/dzejkob23"
+      },
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/jakub-z%C3%ADka-985705ab"
+      }
+    ]
+  },
+  "13": {
+    "id": 13,
+    "featured": true,
+    "name": "Světlana Margetová",
+    "company": "Keboola",
+    "companyLogo": "/images/logos/keboola.png",
+    "country": "Pilsen, Czech Republic",
+    "photoUrl": "/images/people/svetlana_margetova.jpg",
+    "shortBio": "iOS developer with orientation on the best UI/UX during developing and preparing mobile app.",
+    "bio": "iOS developer with orientation on the best UI/UX during developing and preparing mobile app. I am data analyst now, but I can effectively connect data information with mobile use cases with focus on IoT systems, sensors and other smaller devices. Skills: Swift, Firebase, UI/UX",
+    "tags": [
+      "Firebase",
+      "Swift",
+      "UI/UX"
+    ],
+    "badges": [],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/mandragora258"
+      },
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://cz.linkedin.com/in/msvetlana"
+      },
+      {
+        "icon": "website",
+        "name": "Website",
+        "link": "http://margetova.eu/"
       }
     ]
   }
