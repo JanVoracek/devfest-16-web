@@ -74,6 +74,18 @@
     ]
   },
   {
+    "title": "gift-partners",
+    "logos": [
+      {
+        "name": "JetBrains",
+        "url": "https://www.jetbrains.com/",
+        "logoUrl": "../images/logos/jetbrains.svg",
+        "width": 80,
+        "height": 80
+      }
+    ]
+  },
+  {
     "title": "general-media-partner",
     "logos": [
       {
