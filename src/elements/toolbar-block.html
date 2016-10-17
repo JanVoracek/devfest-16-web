@@ -157,7 +157,7 @@
               </paper-tab>
             </template>
           </paper-tabs>
-          <paper-tabs class="lang-tabs" selected="{{app.lang}}" attr-for-selected="name" noink>
+          <!--<paper-tabs class="lang-tabs" selected="{{app.lang}}" attr-for-selected="name" noink>
             <template is="dom-if" if="[[_langIsNot(app.lang, 'cs')]]">
               <paper-tab name="cs">
                 <a href="#" class="nav-link">CZ</a>
@@ -168,14 +168,14 @@
                 <a href="#" class="nav-link">EN</a>
               </paper-tab>
             </template>
-          </paper-tabs>
+          </paper-tabs>-->
           <!--<div class="action-button-wrapper" layout horizontal center-center>
             <paper-icon-button class="lang-button" icon="flags:cz"></paper-icon-button>
           </div>-->
 
-          <template is="dom-if" if="[[!app.user]]">
+          <!--<template is="dom-if" if="[[!app.user]]">
             <paper-tab class="signin-tab" on-tap="signIn">[[localize('sign-in')]]</paper-tab>
-          </template>
+          </template>-->
           <div class="action-button-wrapper" layout horizontal center-center>
             <paper-button class="action-button" on-tap="_scrollToTickets">[[localize('buy-ticket')]]</paper-button>
           </div>

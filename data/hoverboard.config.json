@@ -1,9 +1,10 @@
 {
   "firebase": {
-    "name": "hoverboard-dev",
-    "domain": "hoverboard-dev.firebaseapp.com",
-    "database": "https://hoverboard-dev.firebaseio.com",
-    "api": "AIzaSyBu9LI-hY4NfUOPJJKuV3BfQm7edLr2-aE",
+    "name": "devfestcz-b77a3",
+    "domain": "devfestcz-b77a3.firebaseapp.com",
+    "database": "https://devfestcz-b77a3.firebaseio.com",
+    "api": "AIzaSyBgGXKFtNEQVVlTsmp0AuwoAn7EXsKUFlI",
+    "messagingSenderId": "464613016768",
     "userSessionsPath": "/userSessions"
   },
   "pages": {
