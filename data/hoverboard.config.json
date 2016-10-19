@@ -116,6 +116,11 @@
           "text": "google-developers",
           "url": "https://developers.google.com/",
           "newTab": true
+        },
+        {
+          "text": "press-release",
+          "url": "https://docs.google.com/document/d/1Re8OYSp0o-1hgvLYlsKK98Lpg_LwsaTnNCQmThhjDiI/edit",
+          "newTab": true
         }
       ]
     },
