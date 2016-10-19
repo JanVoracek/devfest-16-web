@@ -63,19 +63,11 @@ HOVERBOARD.ServiceWorkerRegistration = (function () {
   if (navigator.serviceWorker && navigator.serviceWorker.controller) {
     navigator.serviceWorker.controller.onstatechange = function (event) {
       if (event.target.state === 'redundant') {
-        // Define a handler that will be used for the next io-toast tap, at which point it
-        // be automatically removed.
-        var tapHandler = function () {
-          window.location.reload();
-        };
-
         if (HOVERBOARD.Elements && HOVERBOARD.Elements.Template &&
-          HOVERBOARD.Elements.Template.$.toast.showMessage) {
-          HOVERBOARD.Elements.Template.$.toast.showMessage(
-            'A new version of this app is available.', tapHandler, 'Refresh',
-            null, 0); // duration 0 indications shows the toast indefinitely.
+          HOVERBOARD.Elements.Template.$.toast.showNewPageNotice) {
+          HOVERBOARD.Elements.Template.$.toast.showNewPageNotice();
         } else {
-          tapHandler(); // Force reload if user never was shown the toast.
+          window.location.reload();
         }
       }
     };

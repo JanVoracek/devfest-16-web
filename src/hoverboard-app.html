@@ -84,6 +84,31 @@
         padding-top: calc(var(--min-header-height) + 64px);
       }
 
+      .update-available {
+        @apply(--layout-horizontal);
+        @apply(--layout-center-justified);
+        @apply(--layout-center);
+        display: none;
+        border-top: 1px solid #dadada;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        height: 80px;
+      }
+
+      .update-available .text {
+        margin: 0 16px 0 0;
+        font-size: 16px;
+      }
+
+      .update-available paper-button {
+        height: 40px;
+        color: var(--text-primary-color);
+        background-color: var(--default-primary-color);
+      }
+
       @media (min-width: 601px) {
         .main-content {
           padding-top: 424px;
@@ -218,6 +243,11 @@
                   exit-animation="scale-down-animation"
                   disable-controls="[[!video.disableControls]]"></video-dialog>
 
+    <div class="update-available" id="updateInstalled">
+      <span class="text">Website was updated</span>
+      <paper-button raised on-tap="_refreshPage">Refresh</paper-button>
+    </div>
+
     <toast-element id="toast" app="{{app}}"></toast-element>
 
   </template>
@@ -348,6 +378,14 @@
 
         signOut: function () {
           this.$.auth.signOut();
+        },
+
+        showNewPageNotice: function () {
+          this.$.updateInstalled.style.display = 'flex';
+        },
+
+        _refreshPage: function () {
+          window.location.reload();
         }
 
       });
