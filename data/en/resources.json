@@ -8,8 +8,7 @@
   "team": "Team",
   "cod": "Code of Conduct",
   "location-address-short": "Pilsen, Czech Republic",
-  "motto": "",
-  "play-icon": "",
+  "motto": "For developers, by developers",
   "c4p": "Become a speaker",
   "buy-ticket": "Buy ticket",
   "back-to-top": "Back to top",
@@ -93,5 +92,6 @@
   "browse-more": "Browse more events",
   "you-should-sign-in": "Sign in to save sessions",
   "gift-partners": "Gift Partners",
-  "press-release": "Press Release"
+  "press-release": "Press Release",
+  "play-icon": "See our invite video"
 }

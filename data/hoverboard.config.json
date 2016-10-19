@@ -15,6 +15,11 @@
         "fontColor": "#fff",
         "tabBarColor": "#fff",
         "hideLogo": true,
+        "video": {
+          "title": "GDG DevFest Pilsen 2016",
+          "youtubeId": "klBANbKgOI8",
+          "text": "see-invite"
+        },
         "minHeight": "360px"
       }
     },
