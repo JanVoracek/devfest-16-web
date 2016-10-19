@@ -19,23 +19,29 @@
 <link rel="import" href="../elements/logos-block.html">
 <link rel="import" href="../elements/map-block.html">
 <link rel="import" href="../elements/cfp-block.html">
+<link rel="import" href="../elements/accomodation-block.html">
+<link rel="import" href="../elements/tickets-features-block.html">
+<link rel="import" href="../elements/travel-block.html">
 
 <dom-module id="home-page">
 
   <template>
 
     <statistics-block app="{{app}}" cascaded></statistics-block>
-    <featured-people app="{{app}}" people="{{people}}" cascaded></featured-people>
-    <cfp-block app="{{app}}" cascaded></cfp-block>
     <featured-stuff app="{{app}}" cascaded></featured-stuff>
+    <schedule-block app="{{app}}" cascaded></schedule-block>
+    <featured-people app="{{app}}" people="{{people}}" cascaded></featured-people>
+    <!--<cfp-block app="{{app}}" cascaded></cfp-block>-->
     <featured-videos app="{{app}}" cascaded></featured-videos>
     <call-to-action app="{{app}}" cascaded></call-to-action>
     <about-block app="{{app}}" cascaded></about-block>
-    <schedule-block app="{{app}}" cascaded></schedule-block>
     <photo-block app="{{app}}" cascaded></photo-block>
-    <tickets-block app="{{app}}" cascaded></tickets-block>
     <latest-posts app="{{app}}" posts="{{posts}}" cascaded></latest-posts>
+    <tickets-block app="{{app}}" cascaded></tickets-block>
     <!--<social-feed app="{{app}}" cascaded></social-feed>-->
+    <tickets-features-block app="{{app}}" cascaded></tickets-features-block>
+    <!--<accomodation-block app="{{app}}" cascaded></accomodation-block>
+    <travel-block app="{{app}}" cascaded></travel-block>-->
     <map-block app="{{app}}" selected="{{selected}}" cascaded></map-block>
     <logos-block app="{{app}}" cascaded></logos-block>
     <footer-block app="{{app}}" cascaded></footer-block>
