@@ -181,10 +181,10 @@
                   photoUrl: '/images/stuff/angular.svg',
                   name: 'Angular2'
                 }/*,
-                {
-                  photoUrl: '/images/stuff/innovation.png',
-                  name: 'Lean'
-                }*/
+                 {
+                 photoUrl: '/images/stuff/innovation.png',
+                 name: 'Lean'
+                 }*/
               ]
             }
           },
@@ -195,8 +195,8 @@
           }
         },
 
-        ready: function() {
-          window.setInterval(function() {
+        ready: function () {
+          window.setInterval(function () {
             this.shiftContentRight()
           }.bind(this), 2000)
         },
@@ -246,17 +246,26 @@
 
         shiftContentRight: function () {
           var videos = Polymer.dom(this.root).querySelectorAll('.video-item');
+          var isAnyInViewport = false
 
-          if(this._isElementInViewport(videos[videos.length - 1])) {
-            this.$.videos.style.transform = 'translate3d(' + 0 + 'px, 0, 0)';
-            this._currentIndex = 0;
-          } else {
-            var cardRect = videos[ videos.length - 1 ].getBoundingClientRect();
-            var cardWidth = cardRect.width;
-            var newX = -(this._currentIndex + 1) * cardWidth;
-            if (this._currentIndex >= 0 && this._currentIndex < videos.length - 1) {
-              this.$.videos.style.transform = 'translate3d(' + newX + 'px, 0, 0)';
-              this._currentIndex++;
+          videos.forEach(function (item) {
+            if (this._isElementInViewport(item)) {
+              isAnyInViewport = true
+            }
+          }.bind(this));
+          if (isAnyInViewport) {
+
+            if (this._isElementInViewport(videos[ videos.length - 1 ])) {
+              this.$.videos.style.transform = 'translate3d(' + 0 + 'px, 0, 0)';
+              this._currentIndex = 0;
+            } else {
+              var cardRect = videos[ videos.length - 1 ].getBoundingClientRect();
+              var cardWidth = cardRect.width;
+              var newX = -(this._currentIndex + 1) * cardWidth;
+              if (this._currentIndex >= 0 && this._currentIndex < videos.length - 1) {
+                this.$.videos.style.transform = 'translate3d(' + newX + 'px, 0, 0)';
+                this._currentIndex++;
+              }
             }
           }
         },
