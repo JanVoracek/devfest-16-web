@@ -461,5 +461,96 @@
         "link": "http://margetova.eu/"
       }
     ]
+  },
+  "14": {
+    "id": 14,
+    "featured": true,
+    "name": "Tomáš Krypta",
+    "company": "Avast",
+    "companyLogo": "/images/logos/avast.svg",
+    "country": "Prague, Czech Republic",
+    "photoUrl": "/images/people/tomas_kypta.jpg",
+    "shortBio": "Tomas is an Android developer and architect at Avast. He’s focusing on designing the architecture of Android applications",
+    "bio": "Tomas is an Android developer and architect at Avast. He’s focusing on designing the architecture of Android applications, libraries and SDKs as well as pushing good coding and testing practices.",
+    "tags": [
+      "Android"
+    ],
+    "badges": [],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/@TomasKypta"
+      },
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/tomaskypta"
+      }
+    ]
+  },
+  "15": {
+    "id": 15,
+    "featured": true,
+    "name": "Milan Lempera",
+    "company": "Angular.cz",
+    "companyLogo": "/images/logos/angular-cz.svg",
+    "country": "Žďár nad Sázavou, Czech Republic",
+    "photoUrl": "/images/people/milan_lempera.jpg",
+    "shortBio": "Programátor s pozitivním vztahem k automatizaci a čistému kódu.",
+    "bio": "Programátor s pozitivním vztahem k automatizaci a čistému kódu. Postupy, které mi fungují se snažím předávat dál na školeních (angular.cz), nebo na akcích GDG Jihlava",
+    "tags": [
+      "Angular"
+    ],
+    "badges": [],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/MilanLempera"
+      },
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/milanlempera"
+      },
+      {
+        "icon": "website",
+        "name": "Website",
+        "link": "http://angular.cz"
+      }
+    ]
+  },
+  "16": {
+    "id": 16,
+    "featured": true,
+    "name": "Víťa Plšek",
+    "company": "Angular.cz",
+    "companyLogo": "/images/logos/angular-cz.svg",
+    "country": "Brno, Czech Republic",
+    "photoUrl": "/images/people/vita_plsek.jpg",
+    "shortBio": "S programováním začal v útlém věku díky časopisu ABC, vyzkoušel množství technologií a dnes jsou jeho hlavním zaměřením webové aplikace",
+    "bio": "S programováním začal v útlém věku díky časopisu ABC, vyzkoušel množství technologií a dnes jsou jeho hlavním zaměřením webové aplikace, těm se věnuje už od roku 2000. Považuje se za konzervativního a je přesvědčený že pro každou doménu se má používat ta správná technologie. Javascript vnímá jako příjemný jazyk, AngularJS jako stabilní inženýrský nástroj a psaní jednotkových testů považuje za činnost šetřící čas.",
+    "tags": [
+      "Angular"
+    ],
+    "badges": [],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/@VitaPlsek"
+      },
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/vitaplsek"
+      },
+      {
+        "icon": "website",
+        "name": "Website",
+        "link": "http://angular.cz"
+      }
+    ]
   }
 }
