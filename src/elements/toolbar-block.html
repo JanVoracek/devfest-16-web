@@ -10,7 +10,6 @@
 <link rel="import" href="../../bower_components/paper-menu-button/paper-menu-button.html">
 <link rel="import" href="../../bower_components/paper-button/paper-button.html">
 
-<link rel="import" href="../icons/flag-icons.html">
 <link rel="import" href="../styles/shared-styles.html">
 <link rel="import" href="../behaviors/utils-behavior.html">
 <link rel="import" href="../behaviors/localize-behavior.html">
@@ -78,20 +77,18 @@
         font-size: 13px;
       }
 
-      .lang-tabs {
-        --paper-tabs-selection-bar-color: transparent;
-      }
-
       .signin-tab {
-        font-size: 14px;
-        font-weight: 500;
         --paper-tab-content-unselected: {
           opacity: 1;
         };
+        height: 64px;
+        font-size: 14px;
+        font-weight: 500;
       }
 
-      .auth-wrapper {
-        margin-left: 16px;
+      .auth-menu[phoneSize] {
+        padding: 0;
+        transform: translateY(-16px);
       }
 
       .profile-image {
@@ -145,7 +142,8 @@
             class="logo"
             src="/images/logo-white.svg"
             sizing="contain"
-            alt="{{localize('title')}}"></iron-image>
+            alt="{{localize('title')}}">
+          </iron-image>
         </a>
       </div>
       <div class="navItem" layout horizontal self-end>
@@ -157,52 +155,41 @@
               </paper-tab>
             </template>
           </paper-tabs>
-          <!--<paper-tabs class="lang-tabs" selected="{{app.lang}}" attr-for-selected="name" noink>
-            <template is="dom-if" if="[[_langIsNot(app.lang, 'cs')]]">
-              <paper-tab name="cs">
-                <a href="#" class="nav-link">CZ</a>
-              </paper-tab>
-            </template>
-            <template is="dom-if" if="[[_langIsNot(app.lang, 'en')]]">
-              <paper-tab name="en">
-                <a href="#" class="nav-link">EN</a>
-              </paper-tab>
-            </template>
-          </paper-tabs>-->
-          <!--<div class="action-button-wrapper" layout horizontal center-center>
-            <paper-icon-button class="lang-button" icon="flags:cz"></paper-icon-button>
-          </div>-->
-
-          <!--<template is="dom-if" if="[[!app.user]]">
-            <paper-tab class="signin-tab" on-tap="signIn">[[localize('sign-in')]]</paper-tab>
-          </template>-->
-          <div class="action-button-wrapper" layout horizontal center-center>
-            <paper-button class="action-button" on-tap="_scrollToTickets">[[localize('buy-ticket')]]</paper-button>
-          </div>
-          <template is="dom-if" if="[[app.user]]">
-            <div class="auth-wrapper" layout horizontal center-center>
-              <paper-menu-button vertical-align="top" horizontal-align="right">
-                <div
-                  class="profile-image dropdown-trigger"
-                  style="background-image: url('[[app.user.photoURL]]')"
-                ></div>
-                <div class="signin-panel dropdown-content">
-                  <div class="profile-details" layout horizontal>
-                    <div
-                      class="profile-image dropdown-trigger"
-                      style="background-image: url('[[app.user.photoURL]]')"
-                    ></div>
-                    <div layout vertical center-justified>
-                      <span class="profile-name">[[app.user.displayName]]</span>
-                      <span class="profile-email">[[app.user.email]]</span>
-                      <span class="profile-action" role="button" on-tap="signOut">[[localize('sign-out')]]</span>
-                    </div>
-                  </div>
-                </div>
-              </paper-menu-button>
-            </div>
-          </template>
         </template>
+
+        <paper-tab class="signin-tab" on-tap="signIn" hidden$="[[app.user]]">[[localize('sign-in')]]</paper-tab>
+
+        <paper-menu-button
+          class="auth-menu"
+          hidden$="[[!app.user]]"
+          vertical-align="top"
+          horizontal-align="right"
+          phoneSize$="[[app.isPhoneSize]]"
+          layout horizontal center-center>
+          <div
+            class="profile-image dropdown-trigger"
+            style="background-image: url('[[app.user.photoURL]]')"
+          ></div>
+          <div class="signin-panel dropdown-content">
+            <div class="profile-details" layout horizontal>
+              <div
+                class="profile-image dropdown-trigger"
+                style="background-image: url('[[app.user.photoURL]]')"
+              ></div>
+              <div layout vertical center-justified>
+                <span class="profile-name">[[app.user.displayName]]</span>
+                <span class="profile-email">[[app.user.email]]</span>
+                <span class="profile-action" role="button" on-tap="signOut">[[localize('sign-out')]]</span>
+              </div>
+            </div>
+          </div>
+        </paper-menu-button>
+
+        <div class="action-button-wrapper" hidden$="[[app.isPhoneSize]]" layout horizontal center-center>
+          <a href$="[[app.data.tickets.url]]" target="_blank" rel="noopener noreferrer" on-tap="_trackBuyClick">
+            <paper-button class="action-button">[[localize('buy-ticket')]]</paper-button>
+          </a>
+        </div>
       </div>
     </app-toolbar>
 
