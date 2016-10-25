@@ -101,16 +101,16 @@
   },
   "800": {
     "id": 800,
-    "title": "Everybody is a designer",
-    "description": "Whether you write code, design component architecture, create wireframes or icons and color palettes you influences the experience a person will have with your product - everyone at a product company does. Come and hear how you can participate in the design process and make your (design) decisions more informed.",
+    "title": "Techniky duševní práce",
+    "description": "Pojďme se společně zamyslet co to znamená pracovat jako znalostní pracovník, jako programátor. Jak z této činnosti vydat maximum. Jak efektivně využít náš hlavní nástroj - mozek. Přiblížíme si pojmy jako je hluboká práce, inovace, zen programmer a nastavení mysli.",
     "speakers": [
       8
     ],
-    "language": "English",
+    "language": "Czech",
     "complexity": "Beginner",
     "tags": [
-      "UI/UX",
-      "Design"
+      "Innovation",
+      "Management"
     ]
   },
   "900": {

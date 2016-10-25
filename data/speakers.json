@@ -270,28 +270,33 @@
   "8": {
     "id": 8,
     "featured": true,
-    "name": "Martin Čacký",
-    "company": "Seznam.cz",
-    "companyLogo": "/images/logos/seznam.png",
+    "name": "Jaroslav Holaň",
+    "company": "TopMonks",
+    "companyLogo": "/images/logos/topmonks.svg",
     "country": "Prague, Czech Republic",
-    "photoUrl": "/images/people/martin_cacky.jpg",
-    "shortBio": "Martin is a design leader. He strives to create environments where great design can take place.",
-    "bio": "Martin is a design leader. He strives to create environments where great design can take place.",
+    "photoUrl": "/images/people/jaroslav_holan.jpg",
+    "shortBio": "Aktuálně je součástí týmu TopMonks v Praze, kde se podílí na vývoji pro velkou českou banku.",
+    "bio": "Aktuálně je součástí týmu TopMonks v Praze, kde se podílí na vývoji pro velkou českou banku. Pracovní zkušenosti získal ve firmách Česká Spořitelna, Hewlett Packard, Vendavo, Nokia, Tieto. Jeden z organizátorů konference o budoucnosti práce Wisephora. Primárně programuje v Javě, ale rád zkouší i jiné jazyky. Pravidelný účastník Coderetreatů, celodenních cvičení pro zdokonalování programátorských technik. Zastánce čistého kódu, TDD, BDD. Spoluautor knihy Vaadin 7 Cookbook. IT Geek a Kouzelník.",
     "tags": [
-      "Design",
-      "UI/UX"
+      "Innovation",
+      "Management"
     ],
     "badges": [],
     "socials": [
       {
         "icon": "twitter",
         "name": "Twitter",
-        "link": "https://twitter.com/yayoozef"
+        "link": "https://twitter.com/JaroslavHolan"
       },
       {
         "icon": "linkedin",
         "name": "LinkedIn",
-        "link": "https://cz.linkedin.com/in/martincacky"
+        "link": "https://www.linkedin.com/in/jaroslavholan"
+      },
+      {
+        "icon": "website",
+        "name": "website",
+        "link": "https://www.jaroslavholan.com"
       }
     ]
   },
