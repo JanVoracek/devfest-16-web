@@ -29,6 +29,7 @@
   <template>
 
     <style include="shared-styles dialog-styles">
+
       a {
         color: var(--default-primary-color);
         text-decoration: none;
@@ -62,6 +63,10 @@
         background: var(--disabled-accent-color);
         cursor: default;
       }
+
+      .actions paper-menu-button {
+        margin: 0;
+      }
     </style>
 
     <paper-scroll-header-panel id="scrollHeaderPanel" no-reveal>
@@ -73,13 +78,13 @@
         </div>
       </paper-toolbar>
       <div class="content">
-        <paper-fab
+        <!--<paper-fab
           class$="float-button header-action [[_getMyScheduleIcon(session.id, app.user.sessions)]]"
           icon="[[_getMyScheduleIcon(session.id, app.user.sessions)]]"
           session-id$="[[session.id]]"
           on-tap="toggleMyScheduleSession"
           disabled$="[[!online]]"
-        ></paper-fab>
+        ></paper-fab>-->
 
         <div class="metadata-wrapper">
           <div class="main-info">
@@ -219,7 +224,7 @@
 
         _sessionChanged: function () {
           var generatedClass = this._generateClass(this.session.mainTag);
-          this.customStyle['--paper-scroll-header-panel-color'] = 'var(--' + generatedClass + ')';
+          this.customStyle[ '--paper-scroll-header-panel-color' ] = 'var(--' + generatedClass + ')';
           this._previousBrowserColor = HOVERBOARD.Util.getMetaThemeColor();
           HOVERBOARD.Util.setMetaThemeColor(this.getComputedStyleValue('--' + generatedClass));
           this.updateStyles();
