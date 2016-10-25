@@ -134,37 +134,35 @@
       route="{{route}}"
       pattern="/:page"
       data="{{routeData}}"
-      tail="{{subRoute}}"></app-route>
+      tail="{{subRoute}}">
+    </app-route>
 
     <app-data
       app="{{app}}"
       speakers="{{speakers}}"
       sessions="{{sessions}}"
       schedule="{{schedule}}"
-      posts="{{posts}}"
-    ></app-data>
+      posts="{{posts}}">
+    </app-data>
 
     <firebase-app
       name="[[app.data.firebase.name]]"
       auth-domain="[[app.data.firebase.domain]]"
       database-url="[[app.data.firebase.database]]"
-      api-key="[[app.data.firebase.api]]"
-    >
+      api-key="[[app.data.firebase.api]]">
     </firebase-app>
     <firebase-auth
       id="auth"
       provider="google"
       app-name="[[app.data.firebase.name]]"
-      user="{{app.user}}"
-    >
+      user="{{app.user}}">
     </firebase-auth>
 
     <app-drawer-layout id="drawerLayout" drawer-width="599px" force-narrow>
 
       <app-drawer
         id="drawer"
-        swipe-open="[[app.isPhoneSize]]"
-      >
+        swipe-open="[[app.isPhoneSize]]">
         <template is="dom-if" if="[[app.isPhoneSize]]">
           <drawer-block
             app={{app}}
@@ -180,14 +178,14 @@
         <toolbar-block
           app="{{app}}"
           primary
-          sticky
-        ></toolbar-block>
+          sticky>
+        </toolbar-block>
 
         <header-content
           app="{{app}}"
           selected-day="{{selectedDay}}"
-          fade
-        ></header-content>
+          fade>
+        </header-content>
       </app-header>
 
       <div class="main-content">
@@ -297,7 +295,7 @@
             HOVERBOARD.ServiceWorkerRegistration.register();
             this.importHref(this.resolveUrl('pages/schedule-page.html'), null, null, true);
             this.importHref(this.resolveUrl('pages/speakers-page.html'), null, null, true);
-            this.importHref(this.resolveUrl('pages/sessions-page.html'), null, null, true);
+            this.importHref(this.resolveUrl('pages/schedule-page.html'), null, null, true);
             this.importHref(this.resolveUrl('pages/blog-page.html'), null, null, true);
           }.bind(this));
         },

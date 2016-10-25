@@ -1,4 +1,59 @@
 {
+  "0": {
+    "id": 0,
+    "title": "Warm-Up party",
+    "description": "",
+    "language": "English",
+    "image": "/images/sessions/afterparty.jpg"
+  },
+  "10": {
+    "id": 10,
+    "title": "Breakfast & Registration",
+    "description": "",
+    "language": "English",
+    "image": "/images/sessions/breakfast.jpg"
+  },
+  "20": {
+    "id": 20,
+    "title": "Keynote",
+    "description": "",
+    "language": "English",
+    "image": "/images/posts/speakers_announced.jpg"
+  },
+  "30": {
+    "id": 30,
+    "title": "Lunch",
+    "description": "",
+    "language": "English",
+    "image": "/images/sessions/lunch.jpg"
+  },
+  "40": {
+    "id": 40,
+    "title": "Dinner",
+    "description": "",
+    "language": "English",
+    "image": "/images/sessions/dinner.jpg"
+  },
+  "50": {
+    "id": 50,
+    "title": "Closing Day Note",
+    "description": "",
+    "language": "English",
+    "image": "/images/posts/speakers_announced.jpg"
+  },
+  "60": {
+    "id": 60,
+    "title": "After Party",
+    "description": "",
+    "language": "English",
+    "image": "/images/sessions/afterparty.jpg"
+  },
+  "99": {
+    "id": 99,
+    "title": "TBD",
+    "description": "TBD",
+    "language": "English"
+  },
   "100": {
     "id": 100,
     "title": "Firebase + Kotlin + MVP + Rx: Practical Tips",
@@ -9,6 +64,7 @@
     "language": "English",
     "complexity": "Advanced",
     "tags": [
+      "Frontend",
       "Android",
       "Firebase",
       "MVP"
@@ -24,6 +80,7 @@
     "language": "English",
     "complexity": "Advanced",
     "tags": [
+      "Frontend",
       "Polymer",
       "Firebase"
     ]
@@ -38,6 +95,7 @@
     "language": "Czech",
     "complexity": "Advanced",
     "tags": [
+      "Management",
       "Entrepreneurship",
       "Project management"
     ]
@@ -52,6 +110,7 @@
     "language": "Czech",
     "complexity": "Advanced",
     "tags": [
+      "Backend",
       "Web",
       "GraphQL",
       "REST API"
@@ -67,6 +126,7 @@
     "language": "English",
     "complexity": "Advanced",
     "tags": [
+      "Frontend",
       "Android",
       "UI/UX"
     ]
@@ -81,6 +141,7 @@
     "language": "English",
     "complexity": "Advanced",
     "tags": [
+      "Frontend",
       "Polymer",
       "Web"
     ]
@@ -95,6 +156,7 @@
     "language": "Czech",
     "complexity": "Beginner",
     "tags": [
+      "Frontend",
       "Dart",
       "Angular2"
     ]
@@ -109,8 +171,8 @@
     "language": "Czech",
     "complexity": "Beginner",
     "tags": [
-      "Innovation",
-      "Management"
+      "Management",
+      "Innovation"
     ]
   },
   "900": {
@@ -123,10 +185,10 @@
     "language": "English",
     "complexity": "Beginner",
     "tags": [
+      "Management",
       "Entrepreneurship",
       "Agile",
-      "Scrum",
-      "Product development"
+      "Scrum"
     ]
   },
   "1000": {
@@ -141,6 +203,50 @@
     "tags": [
       "IoT",
       "Firebase"
+    ]
+  },
+  "1100": {
+    "id": 1100,
+    "title": "Building Node.js apps on Google Cloud Platform",
+    "description": "Node.js makes building web applications that perform at scale easy - Google App Engine makes running Node.js in production fun. In this session, we're going to learn about the various ways to run Node.js applications on Google Cloud. We'll walk through deploying your first Hello World app and using the gcloud NPM module, we will connect our app to other Google Cloud services such as Vision API (to classify images), Cloud Storage (for binary storage), Pub/Sub (for messaging). We will look at versioning, traffic splitting, live debugging, HTTP tracing and all other features that make running Node.js in the cloud fun!",
+    "speakers": [
+      1
+    ],
+    "language": "English",
+    "complexity": "Beginner",
+    "tags": [
+      "Backend",
+      "App Engine",
+      "Node.js",
+      "Google Cloud Platform"
+    ]
+  },
+  "1200": {
+    "id": 1200,
+    "title": "Apps Script",
+    "description": "TBD",
+    "speakers": [
+      18
+    ],
+    "language": "Czech",
+    "complexity": "Beginner",
+    "tags": [
+      "Backend",
+      "Apps Script"
+    ]
+  },
+  "1300": {
+    "id": 1300,
+    "title": "Angular2.js",
+    "description": "TBD",
+    "speakers": [
+      15, 16
+    ],
+    "language": "Czech",
+    "complexity": "Beginner",
+    "tags": [
+      "Frontend",
+      "Angular.js 2"
     ]
   }
 }

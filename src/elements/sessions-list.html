@@ -228,11 +228,11 @@
         },
 
         _getSpeakerNameById: function (speakerId) {
-          return this.speakers[speakerId].name
+          return this.speakers[speakerId] ? this.speakers[speakerId].name : 'undefined'
         },
 
         _getSpeakerPhotoById: function (speakerId) {
-          return this.speakers[speakerId].photoUrl
+          return this.speakers[speakerId] ? this.speakers[speakerId].photoUrl : 'undefined'
         },
 
         _shortenDesc: function (desc) {

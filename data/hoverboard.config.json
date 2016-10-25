@@ -1,6 +1,6 @@
 {
   "firebase": {
-    "name": "devfestcz-b77a3",
+    "name": "devfestcz",
     "domain": "devfestcz-b77a3.firebaseapp.com",
     "database": "https://devfestcz-b77a3.firebaseio.com",
     "api": "AIzaSyBgGXKFtNEQVVlTsmp0AuwoAn7EXsKUFlI",
@@ -88,8 +88,8 @@
       "permalink": "/speakers/"
     },
     {
-      "route": "sessions",
-      "permalink": "/sessions/"
+      "route": "schedule",
+      "permalink": "/schedule/"
     }
   ],
   "url": "https://www.devfest.cz/",
@@ -103,10 +103,6 @@
     {
       "name": "English",
       "key": "en"
-    },
-    {
-      "name": "Česky",
-      "key": "cs"
     }
   ],
   "footerBlocks": [

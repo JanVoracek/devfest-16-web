@@ -346,6 +346,7 @@
         },
 
         _getCustomStyleValue: function (value) {
+          console.log('_getCustomStyleValue', value, this._generateClass(value))
           return this.getComputedStyleValue('--' + this._generateClass(value));
         },
 
