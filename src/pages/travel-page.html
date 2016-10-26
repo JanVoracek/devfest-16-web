@@ -7,6 +7,7 @@
 
 <link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
 <link rel="import" href="../../bower_components/paper-material/paper-material.html">
+<link rel="import" href="../../bower_components/paper-card/paper-card.html">
 
 <link rel="import" href="../../bower_components/google-map/google-map.html">
 
@@ -50,13 +51,12 @@
       }
 
       .infocard .row {
-        @apply(--layout-horizontal);
+        @apply(--layout-vertical);
         margin: 24px 0 0 0;
       }
 
       .infocard .column {
         @apply(--layout-vertical);
-        @apply(--layout-flex);
         margin: 0 16px;
       }
 
@@ -66,14 +66,12 @@
       }
 
       .hotel .row1 {
-        @apply(--layout-horizontal);
-        @apply(--layout-self-stretch);
+        @apply(--layout-vertical);
         padding: 24px;
       }
 
       .hotel .row1 .details {
         @apply(--layout-vertical);
-        @apply(--layout-flex);
         margin: 0 24px 0 0;
       }
 
@@ -87,18 +85,18 @@
       }
 
       .hotel .details .basic-info {
-        @apply(--layout-horizontal);
-        @apply(--layout-center);
+        @apply(--layout-vertical);
       }
 
       .hotel .details .basic-info .stars {
+        @apply(--layout-horizontal);
         color: #FF9800;
         margin: 0 24px 0 0;
       }
 
       .hotel .image {
-        width: 200px;
-        height: 200px;
+        @apply(--layout-self-stretch);
+        height: 180px;
         background-size: cover;
       }
 
@@ -107,6 +105,33 @@
         min-height: 150px;
         cursor: pointer;
       }
+
+      @media (min-width: 601px) {
+        .infocard .row {
+          @apply(--layout-horizontal);
+          @apply(--layout-flex);
+        }
+
+        .hotel .row1 {
+          @apply(--layout-horizontal);
+          @apply(--layout-self-stretch);
+        }
+
+        .hotel .image {
+          width: 200px;
+          height: 200px;
+        }
+
+        .hotel .row1 .details {
+          @apply(--layout-flex);
+        }
+
+        .hotel .details .basic-info {
+          @apply(--layout-horizontal);
+          @apply(--layout-center);
+        }
+      }
+
     </style>
 
     <div class="container">
