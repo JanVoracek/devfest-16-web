@@ -72,6 +72,13 @@
         "fontColor": "#fff",
         "tabBarColor": "#fff"
       }
+    },
+    "travel": {
+      "headerSettings": {
+        "backgroundColor": "#607D8B",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
     }
   },
   "navigation": [
@@ -90,6 +97,10 @@
     {
       "route": "schedule",
       "permalink": "/schedule/"
+    },
+    {
+      "route": "travel",
+      "permalink": "/travel/"
     }
   ],
   "url": "https://www.devfest.cz/",

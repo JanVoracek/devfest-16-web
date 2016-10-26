@@ -622,5 +622,118 @@
         "link": "https://cz.linkedin.com/in/ivankutil"
       }
     ]
+  },
+  "19": {
+    "id": 19,
+    "featured": false,
+    "name": "Michal Havryluk",
+    "company": "TANGO software",
+    "companyLogo": "/images/logos/tango_software.png",
+    "country": "Prague, Czech Republic",
+    "photoUrl": "/images/people/michal_havryluk.jpg",
+    "shortBio": "Head of Development at TANGO software, Android developer, lecturer at FIT CTU, former editor at Mobil.iDNES.cz and videogames journalist.",
+    "bio": "Head of Development at TANGO software, Android developer, lecturer at FIT CTU, former editor at Mobil.iDNES.cz and videogames journalist.",
+    "tags": [
+      "Android"
+    ],
+    "badges": [],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/Warlock_CZ"
+      },
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://cz.linkedin.com/in/michal-havryluk-2691a76"
+      }
+    ]
+  },
+  "20": {
+    "id": 20,
+    "featured": true,
+    "name": "Anna Šenk",
+    "company": "olap.cz",
+    "companyLogo": "",
+    "country": "Prague, Czech Republic",
+    "photoUrl": "/images/people/anna_senk.jpg",
+    "shortBio": "Anička began in the Startup DameJidlo.cz. In the span of four years, she put together a team of 150 people and became the CEO of DameJidlo.cz",
+    "bio": "Anička began in the Startup DameJidlo.cz. In the span of four years, she put together a team of 150 people and became the CEO of DameJidlo.cz She then successfully showed off her knowledge and abilities again in the Startup Rohlik.cz. In a year of being in the position of logistics manager of Rohlik.cz, she's launched the largest network of couriers here. Now she is putting together a network of independent developers and is trying to fix what Czech education failed at. She enjoys opening people's  eyes and giving them a chance to change their lifestyle.",
+    "tags": [
+      "Entrepreneurship",
+      "Management"
+    ],
+    "badges": [],
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/anna-řepková-751a30b2"
+      }
+    ]
+  },
+  "21": {
+    "id": 21,
+    "featured": false,
+    "name": "David Moravek",
+    "company": "Seznam.cz, a.s.",
+    "companyLogo": "/images/logos/seznam.png",
+    "country": "Prague, Czech Republic",
+    "photoUrl": "/images/people/david_moravek.jpg",
+    "shortBio": "As a DevOps engineer, David is performance tuning Seznam's hadoop infrastructure and makes sure all parts of fulltext web crawler run smoothly.",
+    "bio": "As a DevOps engineer, David is performance tuning Seznam's hadoop infrastructure and makes sure all parts of fulltext web crawler run smoothly.",
+    "tags": [
+      "Backend",
+      "Data",
+      "Hadoop",
+      "Kafka"
+    ],
+    "badges": [],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/davidmoravek"
+      },
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/david-moravek-0b207946"
+      },
+      {
+        "icon": "github",
+        "name": "GitHub",
+        "link": "https://github.com/dmvk?tab=repositories"
+      }
+    ]
+  },
+  "22": {
+    "id": 22,
+    "featured": false,
+    "name": "Ondřej Veselý",
+    "company": "Kiwi.com & FlowerChecker.com",
+    "companyLogo": "/images/logos/kiwi.png",
+    "country": "Brno, Czech Republic",
+    "photoUrl": "/images/people/ondrej_vesely.jpg",
+    "shortBio": "Mixture of startup optimist, corporate agile worker, non-profit enthusiastics dreamer, teacher and strict science analyst.",
+    "bio": "Mixture of startup optimist, corporate agile worker, non-profit enthusiastics dreamer, teacher and strict science analyst.",
+    "tags": [
+      "BigQuery",
+      "BigData"
+    ],
+    "badges": [],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/xorwen"
+      },
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://cz.linkedin.com/in/veselyondrej"
+      }
+    ]
   }
 }

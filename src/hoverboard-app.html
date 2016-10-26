@@ -142,7 +142,8 @@
       speakers="{{speakers}}"
       sessions="{{sessions}}"
       schedule="{{schedule}}"
-      posts="{{posts}}">
+      posts="{{posts}}"
+      hotels="{{hotels}}">
     </app-data>
 
     <firebase-app
@@ -224,10 +225,18 @@
           <hub-page name="hub"
                     app="{{app}}"></hub-page>
 
-          <sessions-page name="sessions"
-                         app="{{app}}"
-                         sessions="{{sessions}}"
-                         speakers="{{speakers}}"></sessions-page>
+          <sessions-page
+            name="sessions"
+            app="{{app}}"
+            sessions="{{sessions}}"
+            speakers="{{speakers}}">
+          </sessions-page>
+
+          <travel-page
+            name="travel"
+            app="[[app]]"
+            hotels="[[hotels]]">
+          </travel-page>
 
         </neon-animated-pages>
       </div>
@@ -297,6 +306,7 @@
             this.importHref(this.resolveUrl('pages/speakers-page.html'), null, null, true);
             this.importHref(this.resolveUrl('pages/schedule-page.html'), null, null, true);
             this.importHref(this.resolveUrl('pages/blog-page.html'), null, null, true);
+            this.importHref(this.resolveUrl('pages/travel-page.html'), null, null, true);
           }.bind(this));
         },
         _routePageChanged: function (page) {

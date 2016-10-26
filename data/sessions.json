@@ -48,6 +48,26 @@
     "language": "English",
     "image": "/images/sessions/afterparty.jpg"
   },
+  "70": {
+    "id": 70,
+    "title": "Barcamp",
+    "description": "TBD",
+    "language": "Czech",
+    "image": "/images/sessions/barcamp.jpg"
+  },
+  "80": {
+    "id": 80,
+    "title": "Closing Keynote",
+    "description": "",
+    "language": "English",
+    "image": "/images/sessions/speakers_announced.jpg"
+  },
+  "90": {
+    "id": 90,
+    "title": "Doors closed",
+    "description": "",
+    "language": ""
+  },
   "99": {
     "id": 99,
     "title": "TBD",
@@ -344,18 +364,103 @@
   },
   "1500": {
     "id": 1500,
-    "title": "Building Node.js apps on Google Cloud Platform",
-    "description": "Node.js makes building web applications that perform at scale easy - Google App Engine makes running Node.js in production fun. In this session, we're going to learn about the various ways to run Node.js applications on Google Cloud. We'll walk through deploying your first Hello World app and using the gcloud NPM module, we will connect our app to other Google Cloud services such as Vision API (to classify images), Cloud Storage (for binary storage), Pub/Sub (for messaging). We will look at versioning, traffic splitting, live debugging, HTTP tracing and all other features that make running Node.js in the cloud fun!",
+    "title": "Guide to the jungle of testing frameworks",
+    "description": "There are many tools, libraries and frameworks available for Android developers to test their applications. The jungle is huge and it's not easy to find the right ones. Some frameworks are good for unit testing, some are good for instrumentation testing, and some can be used for both. Some have great capabilities but annoying weaknesses. Some are good for testing UI, other allow you to make good mocks. We will look at many frameworks, the popular ones like Mockito, Robolectric, Espresso, and some other.",
     "speakers": [
-      1
+      14
     ],
     "language": "English",
+    "complexity": "Advanced",
+    "tags": [
+      "Frontend",
+      "Android"
+    ]
+  },
+  "1600": {
+    "id": 1600,
+    "title": "Správa závislostí Android projektu",
+    "description": "Přidat novou knihovnu k projektu je velmi snadné. Málokdo ale již zkoumá, co taková závislost přináší a co může bez vašeho vědomí změnit. Na problematiku se podíváme zejména z pohledu systému Gradle a Android manifestu. Téma obsahuje i část, jak přidávat vlastní závislosti, a je určeno spíše středně pokročilým vývojářům.",
+    "speakers": [
+      19
+    ],
+    "language": "Czech",
+    "complexity": "Advanced",
+    "tags": [
+      "Frontend",
+      "Android",
+      "Dependency Management"
+    ]
+  },
+  "1700": {
+    "id": 1700,
+    "title": "Using Docker for Machine learning",
+    "description": "Have you always wanted to use machine learning in you projects, but the initial setup it just too complicated?I will tell you how to simplify installation of machine learning frameworks with Docker without pain. Then we will go trough the the process of picking the best framework and model. And finally you will see how to test your model and use it in your project.",
+    "speakers": [
+      17
+    ],
+    "language": "Czech",
+    "complexity": "Advanced",
+    "tags": [
+      "Machine Learning",
+      "Docker"
+    ]
+  },
+  "1800": {
+    "id": 1800,
+    "title": "Big App - New Technologies",
+    "description": "Using latest trends in Android, we dive into MVVM, android databinding, RxJava, testable code and more",
+    "speakers": [
+      7
+    ],
+    "language": "Czech",
+    "complexity": "Advanced",
+    "tags": [
+      "Frontend",
+      "Android"
+    ]
+  },
+  "1900": {
+    "id": 1900,
+    "title": "OLAP Framework - Svoboda pro vývojáře!",
+    "description": "Získejte svobodu pracovat odkudkoliv po celém světě a svobodu a pracovat kdykoliv během dne.",
+    "speakers": [
+      20
+    ],
+    "language": "Czech",
     "complexity": "Beginner",
     "tags": [
+      "Management",
+      "Entrepreneurship"
+    ]
+  },
+  "2000": {
+    "id": 2000,
+    "title": "Seznam se s Kafkou",
+    "description": "Terabytům se směje, s petabyty se kamarádí. Tam, kde tradiční messaging selhává, přichází Kafka. Pojďme si společně představit nejvýkonnější a nejpoužívanější messaging platformu pro zpracovaní velkých dat. Co nabízí, jak funguje a jak ji využívá vyhledávání Seznamu?",
+    "speakers": [
+      21
+    ],
+    "language": "Czech",
+    "complexity": "Advanced",
+    "tags": [
       "Backend",
-      "App Engine",
-      "Node.js",
-      "Google Cloud Platform"
+      "BigData",
+      "Kafka"
+
+    ]
+  },
+  "2100": {
+    "id": 2100,
+    "title": "BigQuery, introduction",
+    "description": "What it is, what for it is (where it fits), what is under the hood. Web interface, API. Description of use case in Kiwi.com with benchmark. Maybe comparison with Cassandra and Postgres.",
+    "speakers": [
+      22
+    ],
+    "language": "Czech",
+    "complexity": "Advanced",
+    "tags": [
+      "Backend",
+      "BigQuery"
     ]
   }
 }

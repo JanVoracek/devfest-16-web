@@ -68,7 +68,7 @@
         "startTime": "11:00",
         "endTime": "12:00",
         "sessions": [
-          [200],
+          [100],
           [400],
           [1201],
           [1301]
@@ -78,7 +78,7 @@
         "startTime": "12:00",
         "endTime": "13:00",
         "sessions": [
-          [600],
+          [200],
           [800],
           [1202],
           [1302]
@@ -97,39 +97,37 @@
         "startTime": "14:30",
         "endTime": "15:30",
         "sessions": [
-          [1000],
+          [600],
           [300],
-          [1400],
-          [1300]
+          [99],
+          [1400]
         ]
       },
       {
         "startTime": "15:30",
         "endTime": "16:30",
         "sessions": [
-          [900],
+          [1000],
+          [1600],
           [99],
-          [1401],
-          [1301]
+          [1401]
         ]
       },
       {
         "startTime": "16:30",
         "endTime": "17:30",
         "sessions": [
+          [900],
           [99],
           [99],
-          [1402],
-          [1302]
+          [1402]
         ]
       },
       {
         "startTime": "17:30",
         "endTime": "18:00",
         "sessions": [
-          [99],
-          [99],
-          [99],
+          [1500],
           [99]
         ]
       },
@@ -171,14 +169,76 @@
       },
       {
         "title": "Small hall"
-      },
-      {
-        "title": "Workshop room 1"
-      },
-      {
-        "title": "Workshop room 2"
       }
     ],
-    "timeslots": []
+    "timeslots": [
+      {
+        "startTime": "8:30",
+        "endTime": "9:30",
+        "sessions": [
+          [10]
+        ]
+      },
+      {
+        "startTime": "9:30",
+        "endTime": "10:30",
+        "sessions": [
+          [700],
+          [99]
+        ]
+      },
+      {
+        "startTime": "10:30",
+        "endTime": "11:30",
+        "sessions": [
+          [99],
+          [1700]
+        ]
+      },
+      {
+        "startTime": "11:30",
+        "endTime": "12:30",
+        "sessions": [
+          [1800],
+          [1900]
+        ]
+      },
+      {
+        "startTime": "12:30",
+        "endTime": "13:00",
+        "sessions": [
+          [2000],
+          [2100]
+        ]
+      },
+      {
+        "startTime": "13:00",
+        "endTime": "14:30",
+        "sessions": [
+          [30]
+        ]
+      },
+      {
+        "startTime": "14:30",
+        "endTime": "15:30",
+        "sessions": [
+          [70]
+        ]
+      },
+      {
+        "startTime": "15:30",
+        "endTime": "16:00",
+        "sessions": [
+          [80]
+        ]
+      },
+      {
+        "startTime": "16:00",
+        "endTime": "16:00",
+        "sessions": [
+          [90]
+        ]
+      }
+    ]
   }
 ]

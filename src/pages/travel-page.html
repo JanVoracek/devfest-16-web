@@ -1,0 +1,225 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+
+<link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
+
+<link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
+<link rel="import" href="../../bower_components/paper-material/paper-material.html">
+
+<link rel="import" href="../../bower_components/google-map/google-map.html">
+
+<link rel="import" href="../behaviors/page-behavior.html">
+<link rel="import" href="../behaviors/share-behavior.html">
+
+
+<dom-module id="travel-page">
+
+  <template>
+
+    <style include="shared-styles">
+      :host {
+        display: block;
+      }
+
+      .layout {
+        @apply(--layout-vertical);
+      }
+
+      paper-card {
+        margin: 0 0 40px 0;
+        background-color: #fafafa;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      .infocard {
+        padding: 24px;
+      }
+
+      .infocard h3 {
+        font-size: 26px;
+      }
+
+      .infocard h4 {
+        font-size: 22px;
+        margin: 0 0 16px 0;
+      }
+
+      .infocard .row {
+        @apply(--layout-horizontal);
+        margin: 24px 0 0 0;
+      }
+
+      .infocard .column {
+        @apply(--layout-vertical);
+        @apply(--layout-flex);
+        margin: 0 16px;
+      }
+
+      .hotel {
+        @apply(--layout-vertical);
+        @apply(--layout-self-stretch);
+      }
+
+      .hotel .row1 {
+        @apply(--layout-horizontal);
+        @apply(--layout-self-stretch);
+        padding: 24px;
+      }
+
+      .hotel .row1 .details {
+        @apply(--layout-vertical);
+        @apply(--layout-flex);
+        margin: 0 24px 0 0;
+      }
+
+      .hotel .details .title {
+        font-size: 24px;
+        margin: 0 0 12px 0;
+      }
+
+      .hotel .details .description {
+        margin: 16px 0 0 0;
+      }
+
+      .hotel .details .basic-info {
+        @apply(--layout-horizontal);
+        @apply(--layout-center);
+      }
+
+      .hotel .details .basic-info .stars {
+        color: #FF9800;
+        margin: 0 24px 0 0;
+      }
+
+      .hotel .image {
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+      }
+
+      .hotel google-map {
+        @apply(--layout-flex);
+        min-height: 150px;
+        cursor: pointer;
+      }
+    </style>
+
+    <div class="container">
+      <div class="layout">
+        <paper-card class="infocard">
+          <h3>Accommodation</h3>
+          <div class="row">
+            <div class="column">
+              <h4>Free</h4>
+              <p>
+                For those of you who want to minimize cost of staying for DevFest, we prepared two local school gyms
+                where you can sleep in your sleeping bag.
+                <br><br>
+                <b>Important</b>
+              </p>
+              <ul>
+                <li><b>fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSfHNXepzczTjoeU-weKKF-tnhsLhgnzogWAs9CF3LQvmISaCw/viewform">this form</a></b></li>
+                <li>make sure to bring your sleeping bag with you</li>
+                <li>8 minute walk from Venue</li>
+                <li>detailed information at Infodesk during event</li>
+              </ul>
+            </div>
+            <div class="column">
+              <h4>Hotels (discount)</h4>
+              <p>
+                In order to make it easier for you to stay for both days, we made deals with local hotels, providing
+                you with discount.
+              </p>
+              <ul>
+                <li>Partner hotels are listed below</li>
+                <li><b>Just tell them that you are coming to DevFest</b></li>
+              </ul>
+            </div>
+          </div>
+        </paper-card>
+
+        <template is="dom-repeat" items="[[hotels]]" as="hotel">
+          <paper-card cascaded>
+            <div class="hotel">
+              <div class="row1">
+                <div class="details">
+                  <h4 class="title">[[hotel.name]]</h4>
+                  <div class="basic-info">
+                    <div class="stars">
+                      <template is="dom-repeat" items="[[_createStartsArray(hotel.stars)]]">
+                        <iron-icon icon="mdi:star"></iron-icon>
+                      </template>
+                    </div>
+                    <a href="http://[[hotel.website]]" class="website">[[hotel.website]]</a>
+                  </div>
+                  <p class="description">[[hotel.description]]</p>
+                  <ul>
+                    <template is="dom-repeat" items="[[hotel.features]]" as="feature">
+                      <li>[[feature]]</li>
+                    </template>
+                  </ul>
+                </div>
+                <div class="image" style="background-image: url('[[hotel.image]]');"></div>
+              </div>
+              <google-map
+                latitude="[[hotel.location.latitude]]"
+                longitude="[[hotel.location.longitude]]"
+                draggable="false"
+                disable-zoom
+                disable-default-ui
+                on-tap="_openGoogleMap"
+                zoom="14">
+                <google-map-marker latitude="[[hotel.location.latitude]]" longitude="[[hotel.location.longitude]]"
+                                   title="[[hotel.name]]"></google-map-marker>
+              </google-map>
+            </div>
+          </paper-card>
+        </template>
+      </div>
+    </div>
+
+  </template>
+
+  <script>
+    (function () {
+      'use strict';
+
+      Polymer({
+
+        is: 'travel-page',
+
+        behaviors: [
+          HOVERBOARD.PageBehavior
+        ],
+
+        properties: {
+          route: {
+            type: Object
+          },
+
+          hotels: {
+            type: Array
+          }
+        },
+
+        _createStartsArray: function (size) {
+          return new Array(size)
+        },
+
+        _openGoogleMap: function (event) {
+          var hotel = event.model.hotel
+          var win = window.open('https://www.google.cz/maps/place/@' + hotel.location.latitude + ',' + hotel.location.longitude + ',18z', '_blank')
+          win.focus()
+        }
+
+      });
+
+    }());
+  </script>
+
+</dom-module>
