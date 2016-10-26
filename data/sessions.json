@@ -223,7 +223,33 @@
   },
   "1200": {
     "id": 1200,
-    "title": "Apps Script",
+    "title": "Apps Script Workshop (part 1)",
+    "description": "TBD",
+    "speakers": [
+      18
+    ],
+    "language": "Czech",
+    "complexity": "Beginner",
+    "tags": [
+      "Backend",
+      "Apps Script"
+    ]
+  },"1201": {
+    "id": 1201,
+    "title": "Apps Script Workshop (part 2)",
+    "description": "TBD",
+    "speakers": [
+      18
+    ],
+    "language": "Czech",
+    "complexity": "Beginner",
+    "tags": [
+      "Backend",
+      "Apps Script"
+    ]
+  },"1202": {
+    "id": 1202,
+    "title": "Apps Script Workshop (part 3)",
     "description": "TBD",
     "speakers": [
       18
@@ -237,7 +263,7 @@
   },
   "1300": {
     "id": 1300,
-    "title": "Angular2.js",
+    "title": "Angular2.js Workshop (part 1)",
     "description": "TBD",
     "speakers": [
       15, 16
@@ -247,6 +273,89 @@
     "tags": [
       "Frontend",
       "Angular.js 2"
+    ]
+  },
+  "1301": {
+    "id": 1301,
+    "title": "Angular2.js Workshop (part 2)",
+    "description": "TBD",
+    "speakers": [
+      15, 16
+    ],
+    "language": "Czech",
+    "complexity": "Beginner",
+    "tags": [
+      "Frontend",
+      "Angular.js 2"
+    ]
+  },
+  "1302": {
+    "id": 1302,
+    "title": "Angular2.js Workshop (part 3)",
+    "description": "TBD",
+    "speakers": [
+      15, 16
+    ],
+    "language": "Czech",
+    "complexity": "Beginner",
+    "tags": [
+      "Frontend",
+      "Angular.js 2"
+    ]
+  },
+  "1400": {
+    "id": 1400,
+    "title": "BigClown Workshop (part 1)",
+    "description": "TBD",
+    "speakers": [
+    ],
+    "language": "Czech",
+    "complexity": "Beginner",
+    "tags": [
+      "IoT",
+      "Open Hardware"
+    ]
+  },
+  "1401": {
+    "id": 1401,
+    "title": "BigClown Workshop (part 2)",
+    "description": "TBD",
+    "speakers": [
+    ],
+    "language": "Czech",
+    "complexity": "Beginner",
+    "tags": [
+      "IoT",
+      "Open Hardware"
+    ]
+  },
+  "1402": {
+    "id": 1402,
+    "title": "BigClown Workshop (part 3)",
+    "description": "TBD",
+    "speakers": [
+    ],
+    "language": "Czech",
+    "complexity": "Beginner",
+    "tags": [
+      "IoT",
+      "Open Hardware"
+    ]
+  },
+  "1500": {
+    "id": 1500,
+    "title": "Building Node.js apps on Google Cloud Platform",
+    "description": "Node.js makes building web applications that perform at scale easy - Google App Engine makes running Node.js in production fun. In this session, we're going to learn about the various ways to run Node.js applications on Google Cloud. We'll walk through deploying your first Hello World app and using the gcloud NPM module, we will connect our app to other Google Cloud services such as Vision API (to classify images), Cloud Storage (for binary storage), Pub/Sub (for messaging). We will look at versioning, traffic splitting, live debugging, HTTP tracing and all other features that make running Node.js in the cloud fun!",
+    "speakers": [
+      1
+    ],
+    "language": "English",
+    "complexity": "Beginner",
+    "tags": [
+      "Backend",
+      "App Engine",
+      "Node.js",
+      "Google Cloud Platform"
     ]
   }
 }
