@@ -11,7 +11,8 @@
     "src/pages/speakers-page.html",
     "src/pages/team-page.html",
     "src/pages/hub-page.html",
-    "src/pages/sessions-page.html"
+    "src/pages/sessions-page.html",
+    "src/pages/travel-page.html"
   ],
   "sources": [
     "data/**/*",
