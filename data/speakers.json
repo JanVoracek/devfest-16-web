@@ -735,5 +735,22 @@
         "link": "https://cz.linkedin.com/in/veselyondrej"
       }
     ]
+  },
+  "23": {
+    "id": 23,
+    "featured": false,
+    "name": "Jan Brnka",
+    "company": "AIMTEC a.s.",
+    "companyLogo": "/images/logos/aimtec.gif",
+    "country": "Plzeň, Czech Republic",
+    "photoUrl": "/images/people/jan_brnka.jpg",
+    "shortBio": "V AIMTECu pracuji od roku 2006 jako součást padesátihlavého týmu, který zajišťuje dodávku našeho vlastního produktu DCIx.",
+    "bio": "V AIMTECu pracuji od roku 2006 jako součást padesátihlavého týmu, který zajišťuje dodávku našeho vlastního produktu DCIx. Začal jsem jako programátor, ale posledních 6 let buduji vývojovou část tohoto týmu.Společně jsme dosáhli spousty úspěšných implementací a produkt jsme dotáhli na světovou úroveň. Jsem rád za přátelské vztahy, prostředí, férovou komunikaci, a vůbec za celou atmosféru, která u nás panuje. Taky mě těší, když vidím, jak se ze studentů u nás stávají profesionální programátoři, které nám závidí zákazníci i konkurence.",
+    "tags": [
+      "Management"
+    ],
+    "badges": [],
+    "socials": [
+    ]
   }
 }

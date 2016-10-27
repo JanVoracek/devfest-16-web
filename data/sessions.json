@@ -462,5 +462,19 @@
       "Backend",
       "BigQuery"
     ]
+  },
+  "2200": {
+    "id": 2200,
+    "title": "Plánování dodávky informačního systému v multi-projektovém prostředí",
+    "description": "Jak naplánovat práci týmu v prostředí, kdy běží několik projektů souběžně najednou a každý člen týmu participuje na více projektech? Jaké termíny zákazníkovi slíbit? Jak ověřit, že projekt jde správným směrem a neovlivní ostatní projekty?",
+    "speakers": [
+      23
+    ],
+    "language": "Czech",
+    "complexity": "Intermediate",
+    "tags": [
+      "Management",
+      "Project Planning"
+    ]
   }
 }
