@@ -43,5 +43,14 @@
     "secondaryColor": "#FF7800",
     "image": "/images/posts/avast_wifisnitcher.jpg",
     "brief": "Avast Software is a global leader in digital security. They are bringing Wifisnitcher to our conference to help you secure your devices against attacks."
+  },
+  {
+    "id": "our-gift-partner-jetbrains",
+    "title": "Our Gift partner JetBrains",
+    "posted": "2016-10-26",
+    "primaryColor": "#ED3D7D",
+    "secondaryColor": "#ED3D7D",
+    "image": "/images/posts/jetbrains_partner.jpg",
+    "brief": "Avast Software is a global leader in digital security. They are bringing Wifisnitcher to our conference to help you secure your devices against attacks."
   }
 ]

@@ -108,6 +108,11 @@
         "name": "Tyinternety.cz",
         "url": "http://tyinternety.cz/",
         "logoUrl": "../images/logos/tyinternety.svg"
+      },
+      {
+        "name": "eventigo.cz",
+        "url": "https://eventigo.cz/",
+        "logoUrl": "../images/logos/eventigo.png"
       }
     ]
   }

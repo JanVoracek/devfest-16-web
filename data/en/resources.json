@@ -4,7 +4,7 @@
   "home": "Home",
   "blog": "Blog",
   "speakers": "Speakers",
-  "schedule": "Schedule (v0)",
+  "schedule": "Schedule (preview)",
   "team": "Team",
   "cod": "Code of Conduct",
   "location-address-short": "Pilsen, Czech Republic",
@@ -95,5 +95,5 @@
   "gift-partners": "Gift Partners",
   "press-release": "Press Release",
   "play-icon": "See our invite video",
-  "travel": "Travel & Accommodation"
+  "travel": "Attending"
 }
