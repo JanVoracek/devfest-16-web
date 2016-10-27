@@ -73,6 +73,14 @@
         border-bottom: 1px solid #dadada;
       }
 
+      .see-all-button {
+        @apply(--layout-self-center);
+      }
+
+      .see-all-button paper-button {
+        background-color: white;
+      }
+
       @media (min-width: 601px) {
         .days-wrapper {
           @apply(--layout-horizontal);
@@ -124,6 +132,9 @@
           </ul>
         </div>
       </div>
+      <a href="/schedule/" class="see-all-button">
+        <paper-button raised>See complete schedule</paper-button>
+      </a>
     </div>
 
   </template>

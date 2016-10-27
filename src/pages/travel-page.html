@@ -173,7 +173,12 @@
             <div class="hotel">
               <div class="row1">
                 <div class="details">
-                  <h4 class="title">[[hotel.name]]</h4>
+                  <h4 class="title">
+                    [[hotel.name]]
+                    <template is="dom-if" if="[[hotel.discount]]">
+                      ([[hotel.discount]]% discount)
+                    </template>
+                  </h4>
                   <div class="basic-info">
                     <div class="stars">
                       <template is="dom-repeat" items="[[_createStartsArray(hotel.stars)]]">

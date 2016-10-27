@@ -1,6 +1,7 @@
 [
   {
     "name": "Hotel Astory",
+    "discount": 15,
     "description": "The newly opened A-Story Hotel offers stylish accommodation. It is located near the centre of Pilsen next to the main motorways passing through the city, as well as to the train station and mass public transportation.",
     "stars": 4,
     "image": "/images/stuff/astory_hotel.jpg",
@@ -16,6 +17,7 @@
   },
   {
     "name": "Penzion U Zimáku",
+    "discount": 10,
     "description": "Náš penzion se nachází v centru města Plzně, přímo naproti zimnímu stadionu. Poskytujeme levné ubytování v osmi dvoulůžkových pokojích s vlastním sociálním zařízením. Parkování pro ubytované hosty je možné zdarma ve dvoře penzionu.",
     "stars": 2,
     "image": "/images/stuff/penzion_u_zimaku.jpg",
