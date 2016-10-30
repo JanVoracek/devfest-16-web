@@ -568,7 +568,7 @@
     "tags": [
     ]
   },
-  "300": {
+  "3000": {
     "id": 3000,
     "title": "Elasticsearch a strukturovaná data",
     "description": "Zkušenosti z nasazení a produkčního provozu Elasticsearch engine nad strukturovanými daty.",
