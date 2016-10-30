@@ -241,22 +241,9 @@
       "Google Cloud Platform"
     ]
   },
-  "1200": {
-    "id": 1200,
-    "title": "Apps Script Workshop (part 1)",
-    "description": "TBD",
-    "speakers": [
-      18
-    ],
-    "language": "Czech",
-    "complexity": "Beginner",
-    "tags": [
-      "Backend",
-      "Apps Script"
-    ]
-  },"1201": {
+  "1201": {
     "id": 1201,
-    "title": "Apps Script Workshop (part 2)",
+    "title": "Apps Script Workshop (part 1)",
     "description": "TBD",
     "speakers": [
       18
@@ -269,7 +256,7 @@
     ]
   },"1202": {
     "id": 1202,
-    "title": "Apps Script Workshop (part 3)",
+    "title": "Apps Script Workshop (part 2)",
     "description": "TBD",
     "speakers": [
       18
@@ -475,6 +462,122 @@
     "tags": [
       "Management",
       "Project Planning"
+    ]
+  },
+  "2300": {
+    "id": 2300,
+    "title": "Open-source a zároveň bezpečná domácí automatizace",
+    "description": "Architektura systému, bezpečnostní opatření, komponenty a jejich funkce, řízení projektu",
+    "speakers": [
+      24
+    ],
+    "language": "Czech",
+    "complexity": "Intermediate",
+    "tags": [
+      "IoT",
+      "Open Hardware"
+    ]
+  },
+  "2400": {
+    "id": 2400,
+    "title": "Firebase CodeLab (part 1)",
+    "description": "Google Developers Codelabs provide a guided, tutorial, hands-on coding experience with Firebase.",
+    "speakers": [
+      2, 3
+    ],
+    "language": "English Czech",
+    "complexity": "Beginner",
+    "tags": [
+      "CodeLab",
+      "Firebase"
+    ]
+  },
+  "2401": {
+    "id": 2401,
+    "title": "Firebase CodeLab (part 2)",
+    "description": "Google Developers Codelabs provide a guided, tutorial, hands-on coding experience with Firebase.",
+    "speakers": [
+      2, 3
+    ],
+    "language": "English Czech",
+    "complexity": "Beginner",
+    "tags": [
+      "CodeLab",
+      "Firebase"
+    ]
+  },
+  "2500": {
+    "id": 2500,
+    "title": "UX zkušenost - nová navigace, design a testy pro DCIx",
+    "description": "Zkušenosti z projektu, kdy jsme předělávali vzhled a ovládání aplikace a potýkali se řadou problémů, co se týče technologií a testování.",
+    "speakers": [
+      28
+    ],
+    "language": "Czech",
+    "complexity": "Beginner",
+    "tags": [
+      "Frontend"
+    ]
+  },
+  "2600": {
+    "id": 2600,
+    "title": "Praktické zkušenosti z 8 let automatického testování WMS systému",
+    "description": "Již dlouhou dobu se zabýváme rozsáhlým automatickým testováním WMS systému a máme z této oblasti bohaté zkušenosti. Chtěli bychom se s vámi podělit o několik zajímavých problémů a výzev, s nimiž jsme se v poslední době museli potýkat a ukázat, jaké řešení aktuálně máme.",
+    "speakers": [
+      29
+    ],
+    "language": "Czech",
+    "complexity": "Beginner",
+    "tags": [
+      "Testing"
+    ]
+  },
+  "2700": {
+    "id": 2700,
+    "title": "Dekompozice monolitické aplikace",
+    "description": "Jedna se o case study prechodu od monoliticke aplikace k architekture sluzeb. Zhodnoceni stavu v polovine cesty.",
+    "speakers": [
+      30
+    ],
+    "language": "Czech",
+    "complexity": "Beginner",
+    "tags": [
+    ]
+  },
+  "2800": {
+    "id": 2800,
+    "title": "Čtyři roky retrospektiv",
+    "description": "Co nám retrospektivy přináší, jak to vypadalo z počátku a jak to funguje nyní.",
+    "speakers": [
+      31
+    ],
+    "language": "Czech",
+    "complexity": "Beginner",
+    "tags": [
+    ]
+  },
+  "2900": {
+    "id": 2900,
+    "title": "Centrální logovací pipeline",
+    "description": "Stručně o tom, jak nám v ClouEDI usnadňuje práci centralizované logování v čele s aplikacemi Graylog a Logstash.",
+    "speakers": [
+      32
+    ],
+    "language": "Czech",
+    "complexity": "Beginner",
+    "tags": [
+    ]
+  },
+  "300": {
+    "id": 3000,
+    "title": "Elasticsearch a strukturovaná data",
+    "description": "Zkušenosti z nasazení a produkčního provozu Elasticsearch engine nad strukturovanými daty.",
+    "speakers": [
+      33
+    ],
+    "language": "Czech",
+    "complexity": "Beginner",
+    "tags": [
     ]
   }
 }

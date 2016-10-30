@@ -752,5 +752,237 @@
     "badges": [],
     "socials": [
     ]
+  },
+  "24": {
+    "id": 24,
+    "featured": true,
+    "name": "Alan Fabik",
+    "company": "BigClown Labs s.r.o.",
+    "companyLogo": "/images/logos/bigclown.png",
+    "country": "Jablonec nad Nisou, Czech Republic",
+    "photoUrl": "/images/people/alan_fabik.png",
+    "shortBio": "Alan Fabik je spoluzakladatel BigClown Labs, spin-offu Jablotronu vyvíjejícím open-source systém domácí automatizace.",
+    "bio": "Alan Fabik je spoluzakladatel BigClown Labs, spin-offu Jablotronu vyvíjejícím open-source systém domácí automatizace. Vystudoval metalurgii na VŠB Ostrava, ale přesunul se k elektronice a na sever Čech. Má rád svou rodinu a běhání.",
+    "tags": [
+      "IoT",
+      "Open Hardware"
+    ],
+    "badges": [],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "twitter.com/bigclownlabs"
+      },
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/alanfabik"
+      },
+      {
+        "icon": "website",
+        "name": "website",
+        "link": "http://www.bigclown.com"
+      }
+    ]
+  },
+  "25": {
+    "id": 25,
+    "featured": true,
+    "name": "Michala Stražovská",
+    "company": "Zoot",
+    "companyLogo": "/images/logos/zoot.png",
+    "country": "Prague, Czech Republic",
+    "photoUrl": "/images/people/michala_strazovska.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [
+      "IoT",
+      "Open Hardware"
+    ],
+    "badges": [],
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://cz.linkedin.com/in/strazovska/en"
+      }
+    ]
+  },
+  "26": {
+    "id": 26,
+    "featured": true,
+    "name": "Petr Hamerník",
+    "company": "Geneea Analytics",
+    "companyLogo": "/images/logos/geneea.png",
+    "country": "Prague, Czech Republic",
+    "photoUrl": "/images/people/petr_hamernik.jpg",
+    "shortBio": "",
+    "bio": "",
+    "tags": [
+      "Machine Learning"
+    ],
+    "badges": [],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/PetrHamernik"
+      },
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/petrhamernik"
+      },
+      {
+        "icon": "website",
+        "name": "website",
+        "link": "http://www.geneea.com"
+      }
+    ]
+  },
+  "27": {
+    "id": 27,
+    "featured": true,
+    "name": "Pavel Hübner",
+    "company": "BigClown Labs s.r.o.",
+    "companyLogo": "/images/logos/bigclown.png",
+    "country": "Czech Republic",
+    "photoUrl": "/images/people/pavel_hubner.png",
+    "shortBio": "Pavel Hübner je od dětství nadšencem do elektroniky. 10 let působil na pozici vývojáře hardware a firmware ve společnosti JABLOTRON ALARMS.",
+    "bio": "Pavel Hübner je od dětství nadšencem do elektroniky. 10 let působil na pozici vývojáře hardware a firmware ve společnosti JABLOTRON ALARMS. V roce 2016 se stal spoluzakladatelem společnosti BigClown Labs a pracuje na vývoji open-source elektroniky pro domácí automatizaci.",
+    "tags": [
+      "IoT",
+      "Open Hardware"
+    ],
+    "badges": [],
+    "socials": [
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/PavelHubner"
+      },
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://cz.linkedin.com/in/pavel-hubner"
+      },
+      {
+        "icon": "website",
+        "name": "website",
+        "link": "https://www.bigclown.com/"
+      }
+    ]
+  },
+  "28": {
+    "id": 28,
+    "featured": false,
+    "name": "Tomáš Časta",
+    "company": "AIMTEC a.s.",
+    "companyLogo": "/images/logos/aimtec.gif",
+    "country": "Czech Republic",
+    "photoUrl": "/images/people/.png",
+    "shortBio": "28 let, Plzeň, software developer, zájmy - cestovaní, hokej, fotbal",
+    "bio": "28 let, Plzeň, software developer, zájmy - cestovaní, hokej, fotbal",
+    "tags": [
+      "Frontend",
+      "Mobile"
+    ],
+    "badges": [],
+    "socials": [
+      
+    ]
+  },
+  "29": {
+    "id": 29,
+    "featured": false,
+    "name": "Roman Krňoul",
+    "company": "AIMTEC a.s.",
+    "companyLogo": "/images/logos/aimtec.gif",
+    "country": "Czech Republic",
+    "photoUrl": "/images/people/roman_krnoul.jpg",
+    "shortBio": "Vystudoval na FAV geomatiku, ale už během studia pracoval v Aimtecu jako programátor automatických testů.",
+    "bio": "Vystudoval na FAV geomatiku, ale už během studia pracoval v Aimtecu jako programátor automatických testů. Dnes na pozici test managera zajišťuje a zvyšuje kvalitu WMS systému. V soukromém životě především nadšený cestovatel a fotograf.",
+    "tags": [
+
+    ],
+    "badges": [],
+    "socials": [
+
+    ]
+  },
+  "30": {
+    "id": 30,
+    "featured": false,
+    "name": "Stanislav Horáček",
+    "company": "AIMTEC a.s.",
+    "companyLogo": "/images/logos/aimtec.gif",
+    "country": "Czech Republic",
+    "photoUrl": "/images/people/stanislav_horacek.jpg",
+    "shortBio": "Vyvojar, architekt.",
+    "bio": "Vyvojar, architekt.",
+    "tags": [
+
+    ],
+    "badges": [],
+    "socials": [
+
+    ]
+  },
+  "31": {
+    "id": 31,
+    "featured": false,
+    "name": "Jakub Kotásek",
+    "company": "AIMTEC a.s.",
+    "companyLogo": "/images/logos/aimtec.gif",
+    "country": "Pilsen, Czech Republic",
+    "photoUrl": "/images/people/jakub_kotasek.jpg",
+    "shortBio": "Vystudoval Softwarové Inženýrství na Fakultě aplikovaných věd Západočeské univerzity. Před šesti lety začal v Aimtecu pracovat jako programátor automatických testů.",
+    "bio": "Vystudoval Softwarové Inženýrství na Fakultě aplikovaných věd Západočeské univerzity. Před šesti lety začal v Aimtecu pracovat jako programátor automatických testů, před třemi roky přestoupil na programátora a nyní vede tým desíti programátorů. Je velmi zapálený do automatického testování a snaží se prosazovat zásady TDD.",
+    "tags": [
+
+    ],
+    "badges": [],
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://www.google.cz/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwi3_PDXtNfPAhVFPRoKHfInAX8QFggdMAA&url=https%3A%2F%2Fcz.linkedin.com%2Fin%2Fjakub-kot%25C3%25A1sek-08577071&usg=AFQjCNERTZKBgT6u1-unTuKARjnqNZfK-Q&sig2=zU4vxaJr93jMraUm7jG7zw"
+      }
+    ]
+  },
+  "32": {
+    "id": 32,
+    "featured": false,
+    "name": "Jan Šmucr",
+    "company": "AIMTEC a.s.",
+    "companyLogo": "/images/logos/aimtec.gif",
+    "country": "Rokycany, Czech Republic",
+    "photoUrl": "/images/people/jan_smucr.jpg",
+    "shortBio": "Full stack vývojář a systémový administrátor ve společnosti Aimtec (2 roky)",
+    "bio": "Full stack vývojář a systémový administrátor ve společnosti Aimtec (2 roky)",
+    "tags": [
+      "Backend"
+    ],
+    "badges": [],
+    "socials": [
+    ]
+  },
+  "33": {
+    "id": 33,
+    "featured": false,
+    "name": "Jiří Loudil",
+    "company": "AIMTEC a.s.",
+    "companyLogo": "/images/logos/aimtec.gif",
+    "country": "Rokycany, Czech Republic",
+    "photoUrl": "/images/people/.jpg",
+    "shortBio": "System developer ve společnosti AIMTEC",
+    "bio": "System developer ve společnosti AIMTEC",
+    "tags": [
+      "Backend"
+    ],
+    "badges": [],
+    "socials": [
+    ]
   }
 }
