@@ -51,6 +51,15 @@
     "primaryColor": "#ED3D7D",
     "secondaryColor": "#ED3D7D",
     "image": "/images/posts/jetbrains_partner.jpg",
-    "brief": "Avast Software is a global leader in digital security. They are bringing Wifisnitcher to our conference to help you secure your devices against attacks."
+    "brief": "Společnost JetBrains byla založena v roce 2000 jako malá firma o pěti zaměstnancích. Za 16 let činnosti se z JetBrains stal lídr na trhu profesionálních vývojářských nástrojů pro populární platformy jako například Java, JavaScript, Objective-C, .NET, C++, Ruby, PHP, Python, Android, iOS."
+  },
+  {
+    "id": "our-gold-partner-fnx-io",
+    "title": "Meet our Gold partner fnx.io",
+    "posted": "2016-10-31",
+    "primaryColor": "#FF0000",
+    "secondaryColor": "#FF0000",
+    "image": "/images/posts/fnxio_partner.jpg",
+    "brief": "fnx.io se orientuje na vývoj zakázkových backendů a na konzultace v oblasti cloudových řešení."
   }
 ]
