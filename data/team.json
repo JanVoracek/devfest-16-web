@@ -20,17 +20,17 @@
         "title": "Sponsors and website"
       },
       {
-        "name": "Hubert Šváb",
-        "photoUrl": "/images/people/hubert_svab.jpg",
+        "name": "Honza Slavík",
+        "photoUrl": "/images/people/honza_slavik.jpg",
         "socials": [
           {
-            "icon": "facebook",
-            "link": "https://www.facebook.com/bert.svab.3",
-            "name": "Facebook"
+            "icon": "linkedin",
+            "link": "https://cz.linkedin.com/in/honzaslavik",
+            "name": "Linkedin"
           },
           {
             "icon": "twitter",
-            "link": "https://twitter.com/BertSvab",
+            "link": "https://twitter.com/honza_slavik",
             "name": "Twitter"
           }
         ],
