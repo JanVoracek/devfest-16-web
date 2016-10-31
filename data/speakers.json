@@ -794,18 +794,23 @@
     "companyLogo": "/images/logos/zoot.png",
     "country": "Prague, Czech Republic",
     "photoUrl": "/images/people/michala_strazovska.jpg",
-    "shortBio": "",
-    "bio": "",
+    "shortBio": "Happiness Resources Brand Builder @ ZOOT. Life cheerleader, somatic coach, psychologist, massage therapist, article scribbler, (IT) recruiter, glasses lover.",
+    "bio": "Happiness Resources Brand Builder @ ZOOT. Life cheerleader, somatic coach, psychologist, massage therapist, article scribbler, (IT) recruiter, glasses lover.",
     "tags": [
-      "IoT",
-      "Open Hardware"
+      "Management",
+      "HR"
     ],
     "badges": [],
     "socials": [
       {
+        "icon": "twitter",
+        "name": "twitter",
+        "link": "https://twitter.com/MishaSomatic"
+      },
+      {
         "icon": "linkedin",
         "name": "LinkedIn",
-        "link": "https://cz.linkedin.com/in/strazovska/en"
+        "link": "https://cz.linkedin.com/in/strazovska"
       }
     ]
   },
@@ -817,8 +822,8 @@
     "companyLogo": "/images/logos/geneea.png",
     "country": "Prague, Czech Republic",
     "photoUrl": "/images/people/petr_hamernik.jpg",
-    "shortBio": "",
-    "bio": "",
+    "shortBio": "Ještě během matfyzu byl u vzniku NetBeans, 10let pracoval na softwaru pro farmaceutický výzkum, v současnosti se věnuje textové analytice ve startupu Geneea.",
+    "bio": "Ještě během matfyzu byl u vzniku NetBeans, 10let pracoval na softwaru pro farmaceutický výzkum, v současnosti se věnuje textové analytice ve startupu Geneea.",
     "tags": [
       "Machine Learning"
     ],
@@ -881,7 +886,7 @@
     "company": "AIMTEC a.s.",
     "companyLogo": "/images/logos/aimtec.gif",
     "country": "Czech Republic",
-    "photoUrl": "/images/people/.png",
+    "photoUrl": "/images/people/tomas_casta.jpg",
     "shortBio": "28 let, Plzeň, software developer, zájmy - cestovaní, hokej, fotbal",
     "bio": "28 let, Plzeň, software developer, zájmy - cestovaní, hokej, fotbal",
     "tags": [
@@ -975,7 +980,7 @@
     "company": "AIMTEC a.s.",
     "companyLogo": "/images/logos/aimtec.gif",
     "country": "Rokycany, Czech Republic",
-    "photoUrl": "/images/people/.jpg",
+    "photoUrl": "/images/people/jiri_loudil.jpg",
     "shortBio": "System developer ve společnosti AIMTEC",
     "bio": "System developer ve společnosti AIMTEC",
     "tags": [
