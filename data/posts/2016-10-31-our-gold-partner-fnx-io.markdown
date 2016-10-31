@@ -1,6 +1,6 @@
-<img src="/images/logos/fnxio.svg" style="width: 160px;"/>
+<a href="https://fnx.io/"><img src="/images/logos/fnxio.svg" style="width: 160px;"/></a>
 
-fnx.io se orientuje na vývoj zakázkových backendů a na konzultace v oblasti cloudových řešení.
+<a href="https://fnx.io/">fnx.io</a> se orientuje na vývoj zakázkových backendů a na konzultace v oblasti cloudových řešení.
 
 
 Z naší vlastní praxe víme, že těžiště vývoje se zvolna ale neúprosně přesunuje směrem k frontendu. Nároky na uživatelské rozhraní jsou stále větší a větší a o úspěchu nebo neúspěchu aplikace rozhoduje především user experience.
@@ -29,4 +29,4 @@ Za fnx.io stojí Tomáš Zvěřina (Multimedia atelier, Google Developer Expert)
 
 __Yes, we are hiring!__
 
-Kdo není, že? Zajímá tě Java, node.js nebo Dart? Ozvi se nám na hiring@fnx.io. Zjistíme co tě baví, řekneme ti, co potřebujeme my a třeba se potkáme. Hledáme především ty, pro které jsou programování a technologie koníčkem. Jestli hledáš klídek, píchačky a závodní jídelnu - tak to u nás nenajdeš. Jestli ti jde o to odvést dobrou práci, kterou pak budou spokojeně používat tisíce lidí, pak si budeme rozumět. A jestli chceš pracovat doma, na cestách nebo v kanceláři, na tom už moc nezáleží. Alespoň nám ne.
+Kdo není, že? Zajímá tě Java, node.js nebo Dart? Ozvi se nám na <a href="mailto:hiring@fnx.io">hiring@fnx.io</a>. Zjistíme co tě baví, řekneme ti, co potřebujeme my a třeba se potkáme. Hledáme především ty, pro které jsou programování a technologie koníčkem. Jestli hledáš klídek, píchačky a závodní jídelnu - tak to u nás nenajdeš. Jestli ti jde o to odvést dobrou práci, kterou pak budou spokojeně používat tisíce lidí, pak si budeme rozumět. A jestli chceš pracovat doma, na cestách nebo v kanceláři, na tom už moc nezáleží. Alespoň nám ne.
