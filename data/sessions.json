@@ -315,6 +315,8 @@
     "title": "BigClown Workshop (part 1)",
     "description": "TBD",
     "speakers": [
+      24,
+      27
     ],
     "language": "Czech",
     "complexity": "Beginner",
@@ -328,6 +330,8 @@
     "title": "BigClown Workshop (part 2)",
     "description": "TBD",
     "speakers": [
+      24,
+      27
     ],
     "language": "Czech",
     "complexity": "Beginner",
@@ -341,6 +345,8 @@
     "title": "BigClown Workshop (part 3)",
     "description": "TBD",
     "speakers": [
+      24,
+      27
     ],
     "language": "Czech",
     "complexity": "Beginner",
@@ -483,7 +489,8 @@
     "title": "Firebase CodeLab (part 1)",
     "description": "Google Developers Codelabs provide a guided, tutorial, hands-on coding experience with Firebase.",
     "speakers": [
-      2, 3
+      2,
+      3
     ],
     "language": "English Czech",
     "complexity": "Beginner",
@@ -497,7 +504,8 @@
     "title": "Firebase CodeLab (part 2)",
     "description": "Google Developers Codelabs provide a guided, tutorial, hands-on coding experience with Firebase.",
     "speakers": [
-      2, 3
+      2,
+      3
     ],
     "language": "English Czech",
     "complexity": "Beginner",
