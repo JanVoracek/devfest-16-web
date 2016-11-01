@@ -603,7 +603,7 @@
   },
   "3200": {
     "id": 3200,
-    "title": " Jak zařídit, aby počítače četli za nás",
+    "title": " Jak zařídit, aby počítače četly za nás",
     "description": "Na světě vzniká enormní množství textu. Každý z nás je zavalen více texty než může zvládnout přečíst, natož pochopit a zanalyzovat. Naštěstí pomocí textové analytiky vám počítače mohou pomoci najít v textech to důležité. V přednášce se také podíváme na příklady, jak integrovat systém pro počítačové zpracování jazyka (NLP) s některými aplikacemi Google.",
     "speakers": [
       26
